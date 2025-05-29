@@ -1,5 +1,5 @@
 <header class="fl-builder-content fl-builder-content-41 fl-builder-global-templates-locked" data-post-id="41" data-type="header" data-sticky="0" data-sticky-on="" data-sticky-breakpoint="medium" data-shrink="0" data-overlay="0" data-overlay-bg="transparent" data-shrink-image-height="50px" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader"
-  style="position: fixed; top: 0; z-index: 999; width: 100%; background: white; height: 60px;">
+  style="position: sticky; top: 0; z-index: 999; width: 100%; background: white;">
   <div class="fl-row fl-row-full-width fl-row-bg-color fl-node-1ictj3kuxp92 fl-row-default-height fl-row-align-center" data-node="1ictj3kuxp92">
     <div class="fl-row-content-wrap">
       <div class="fl-row-content fl-row-fixed-width fl-node-content" style="position: relative;">
@@ -11,8 +11,8 @@
                 <div class="fl-module-content fl-node-content">
                   <div class="fl-photo fl-photo-align-left" itemscope="" itemtype="https://schema.org/ImageObject">
                     <div class="fl-photo-content fl-photo-img-png">
-                      <a href="#beranda" target="_self" itemprop="url">
-                        <img decoding="async" class="fl-photo-img wp-image-38 size-full" src="https://placehold.co/300x56/FFFFFF/111/png?text=BarunaKanopi" alt="logo-header" itemprop="image" height="56" width="300" title="logo-header" data-no-lazy="1" srcset="https://placehold.co/300x56/FFFFFF/111/png?text=BarunaKanopi 300w, https://placehold.co/300x56/FFFFFF/111/png?text=BarunaKanopi 150w" sizes="(max-width: 300px) 100vw, 300px">
+                      <a href="/">
+                        <img class="fl-photo-img wp-image-38 size-full" src="https://placehold.co/300x56/FFFFFF/111/png?text=BarunaKanopi" alt="logo-header" itemprop="image" height="56" width="300" title="logo-header" data-no-lazy="1" srcset="https://placehold.co/300x56/FFFFFF/111/png?text=BarunaKanopi 300w, https://placehold.co/300x56/FFFFFF/111/png?text=BarunaKanopi 150w" sizes="(max-width: 300px) 100vw, 300px">
                       </a>
                     </div>
                   </div>

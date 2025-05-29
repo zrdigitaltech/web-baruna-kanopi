@@ -1,11 +1,11 @@
-<div class="fl-row fl-row-full-width fl-row-bg-none fl-node-xdtgnc830h1l fl-row-default-height fl-row-align-center" data-node="xdtgnc830h1l">
+<div class="fl-row fl-row-full-width fl-row-bg-none fl-node-xdtgnc830h1l fl-row-default-height fl-row-align-center">
   <div class="fl-row-content-wrap">
     <div class="fl-row-content fl-row-full-width fl-node-content">
 
-      <div id="beranda" class="fl-col-group fl-node-0etia45r6nyh" data-node="0etia45r6nyh">
-        <div class="fl-col fl-node-mry7x6bnlov2 fl-col-bg-color" data-node="mry7x6bnlov2">
+      <div class="fl-col-group fl-node-0etia45r6nyh">
+        <div class="fl-col fl-node-mry7x6bnlov2 fl-col-bg-color">
           <div class="fl-col-content fl-node-content">
-            <div class="fl-module fl-module-content-slider fl-node-lh7todf5snuk" data-node="lh7todf5snuk">
+            <div class="fl-module fl-module-content-slider fl-node-lh7todf5snuk">
               <div class="fl-module-content fl-node-content">
                 <div class="fl-content-slider">
                   <div class="bx-wrapper" style="max-width: 100%; margin: 0px auto;">
