@@ -1,0 +1,165 @@
+<footer id="kontak" class="fl-builder-content fl-builder-content-70 fl-builder-global-templates-locked" data-post-id="70" data-type="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+  <div class="fl-row fl-row-full-width fl-row-bg-color fl-node-kgbajot50uhe fl-row-default-height fl-row-align-center" data-node="kgbajot50uhe">
+    <div class="fl-row-content-wrap">
+      <div class="fl-row-content fl-row-fixed-width fl-node-content">
+
+        <div class="fl-col-group fl-node-c96bphw47rqm" data-node="c96bphw47rqm">
+          <div class="fl-col fl-node-ym5zsaw6kxtd fl-col-bg-color fl-col-small" data-node="ym5zsaw6kxtd">
+            <div class="fl-col-content fl-node-content">
+              <div class="fl-module fl-module-heading fl-node-8cdsfx2wuag9" data-node="8cdsfx2wuag9">
+                <div class="fl-module-content fl-node-content">
+                  <h3 class="fl-heading">
+                    <span class="fl-heading-text">Kontak Kami</span>
+                  </h3>
+                </div>
+              </div>
+              <div class="fl-module fl-module-icon fl-node-mrcsita0lob4" data-node="mrcsita0lob4">
+                <div class="fl-module-content fl-node-content">
+                  <div class="fl-icon-wrap">
+                    <span class="fl-icon">
+                      <a href="#" target="_self" tabindex="-1" aria-hidden="true" aria-labelledby="fl-icon-text-mrcsita0lob4">
+                        <i class="fas fa-map-marked-alt" aria-hidden="true"></i>
+                      </a>
+                    </span>
+                    <div id="fl-icon-text-mrcsita0lob4" class="fl-icon-text">
+                      <a href="#" target="_self" class="fl-icon-text-link fl-icon-text-wrap">
+                        <p><strong>Jabodetabek</strong>:<br>Gading Serpong, Ruko Pisa Grande</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="fl-module fl-module-icon fl-node-ugqv8odk5f49" data-node="ugqv8odk5f49">
+                <div class="fl-module-content fl-node-content">
+                  <div class="fl-icon-wrap">
+                    <span class="fl-icon">
+                      <a href="#" target="_self" tabindex="-1" aria-hidden="true" aria-labelledby="fl-icon-text-ugqv8odk5f49">
+                        <i class="fas fa-map-marked-alt" aria-hidden="true"></i>
+                      </a>
+                    </span>
+                    <div id="fl-icon-text-ugqv8odk5f49" class="fl-icon-text">
+                      <a href="#" target="_self" class="fl-icon-text-link fl-icon-text-wrap">
+                        <p><strong>Bogor</strong>:<br>Bogor, Jawa Barat</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="fl-module fl-module-icon fl-node-9uslcjz72mfb" data-node="9uslcjz72mfb">
+                <div class="fl-module-content fl-node-content">
+                  <div class="fl-icon-wrap">
+                    <span class="fl-icon">
+                      <a href="#" target="_self" tabindex="-1" aria-hidden="true" aria-labelledby="fl-icon-text-9uslcjz72mfb">
+                        <i class="fas fa-map-marked-alt" aria-hidden="true"></i>
+                      </a>
+                    </span>
+                    <div id="fl-icon-text-9uslcjz72mfb" class="fl-icon-text">
+                      <a href="#" target="_self" class="fl-icon-text-link fl-icon-text-wrap">
+                        <p><strong>Bandung</strong>:<br>Kolonel Masturi, Cimahi</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="fl-module fl-module-icon fl-node-18edohsqcpyg" data-node="18edohsqcpyg">
+                <div class="fl-module-content fl-node-content">
+                  <div class="fl-icon-wrap">
+                    <span class="fl-icon">
+                      <a href="tel:081347152882" target="_blank" tabindex="-1" aria-hidden="true" aria-labelledby="fl-icon-text-18edohsqcpyg" rel="noopener">
+                        <i class="fas fa-phone" aria-hidden="true"></i>
+                      </a>
+                    </span>
+                    <div id="fl-icon-text-18edohsqcpyg" class="fl-icon-text">
+                      <a href="tel:081347152882" target="_blank" class="fl-icon-text-link fl-icon-text-wrap" rel="noopener">
+                        <p>081347152882</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="fl-col fl-node-1n8i3x69u5wr fl-col-bg-color fl-col-small fl-col-has-cols" data-node="1n8i3x69u5wr">
+            <div class="fl-col-content fl-node-content">
+              <div class="fl-module fl-module-heading fl-node-3dylvt0msrni" data-node="3dylvt0msrni">
+                <div class="fl-module-content fl-node-content">
+                  <h3 class="fl-heading">
+                    <span class="fl-heading-text">Link-Link</span>
+                  </h3>
+                </div>
+              </div>
+
+              <div class="fl-col-group fl-node-j5fmari6b9wx fl-col-group-nested" data-node="j5fmari6b9wx">
+                <div class="fl-col fl-node-re1kb7cglui8 fl-col-bg-color fl-col-small" data-node="re1kb7cglui8">
+                  <div class="fl-col-content fl-node-content">
+                    <div class="fl-module fl-module-rich-text fl-node-16vryos5du0w" data-node="16vryos5du0w">
+                      <div class="fl-module-content fl-node-content">
+                        <div class="fl-rich-text">
+                          <p><a href="#profil">Profil</a></p>
+                          <p><a href="#layanan">Layanan</a></p>
+                          <p><a href="#project">Project</a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="fl-col fl-node-qi7uyxf61sht fl-col-bg-color fl-col-small" data-node="qi7uyxf61sht">
+                  <div class="fl-col-content fl-node-content">
+                    <div class="fl-module fl-module-rich-text fl-node-xn0ierudcpal" data-node="xn0ierudcpal">
+                      <div class="fl-module-content fl-node-content">
+                        <div class="fl-rich-text">
+                          <p><a href="#galeri">Galeri</a></p>
+                          <p><a href="#testimoni">Testimoni</a></p>
+                          <p><a href="#artikel">Artikel</a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="fl-col fl-node-8gb2qw7uycz4 fl-col-bg-color fl-col-small" data-node="8gb2qw7uycz4">
+            <div class="fl-col-content fl-node-content">
+              <div class="fl-module fl-module-heading fl-node-kiez61goqbju" data-node="kiez61goqbju">
+                <div class="fl-module-content fl-node-content">
+                  <h3 class="fl-heading">
+                    <span class="fl-heading-text">Tentang Kami</span>
+                  </h3>
+                </div>
+              </div>
+              <div class="fl-module fl-module-rich-text fl-node-4y6vet05lfpo" data-node="4y6vet05lfpo">
+                <div class="fl-module-content fl-node-content">
+                  <div class="fl-rich-text">
+                    <p>Baruna Kanopi adalah penyedia jasa pemasangan kanopi profesional di Indonesia. Kami berkomitmen menghadirkan solusi kanopi terbaik yang kuat, tahan cuaca, dan memiliki desain menarik. Dengan pengalaman dan tim berpengalaman, kami siap memenuhi kebutuhan kanopi rumah, toko, maupun bangunan komersial Anda.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fl-row fl-row-full-width fl-row-bg-color fl-node-co4df1zweju8 fl-row-default-height fl-row-align-center" data-node="co4df1zweju8">
+    <div class="fl-row-content-wrap">
+      <div class="fl-row-content fl-row-fixed-width fl-node-content">
+
+        <div class="fl-col-group fl-node-v9n6mf8gte3a" data-node="v9n6mf8gte3a">
+          <div class="fl-col fl-node-zxap3byscr95 fl-col-bg-color" data-node="zxap3byscr95">
+            <div class="fl-col-content fl-node-content">
+              <div class="fl-module fl-module-rich-text fl-node-1djfesxzr3t2" data-node="1djfesxzr3t2">
+                <div class="fl-module-content fl-node-content">
+                  <div class="fl-rich-text">
+                    <p class="text-center mb-0">© 2025 Baruna Kanopi. All Rights Reserved.</p>
+                    <p class="design-by">Design by <a href="https://velocitydeveloper.com/" target="_blank" rel="noopener">Velocity Developer</a>.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
