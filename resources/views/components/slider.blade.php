@@ -11,62 +11,37 @@
                   <div class="bx-wrapper" style="max-width: 100%; margin: 0px auto;">
                     <div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative;"> {{-- height: 550px; --}}
                       <div class="fl-content-slider-wrapper fl-content-slider-loaded" style="opacity: 1; width: 2215%; position: relative; transition-duration: 0s; transform: translate3d(-1437px, 0px, 0px);">
-                        <div class="fl-slide fl-slide-1 fl-slide-text-center bx-clone" style="float: left; list-style: none; position: relative; width: 1437px;" aria-hidden="true">
-                          <div class="fl-slide-mobile-photo"><img decoding="async" width="876" height="558" loading="false" class="fl-slide-mobile-photo-img wp-image-129" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20876%20558&#39;%3E%3C/svg%3E" alt="barunakanopi.com" data-lazy-srcset="https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi11.jpg 876w, https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi11-300x191.jpg 300w, https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi11-800x510.jpg 800w, https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi11-150x96.jpg 150w, https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi11-768x489.jpg 768w" data-lazy-sizes="(max-width: 876px) 100vw, 876px" data-lazy-src="https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi11.jpg"><noscript><img decoding="async" width="876" height="558" loading='false' class="fl-slide-mobile-photo-img wp-image-129" src="https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi11.jpg" alt="barunakanopi.com" srcset="https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi11.jpg 876w, https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi11-300x191.jpg 300w, https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi11-800x510.jpg 800w, https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi11-150x96.jpg 150w, https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi11-768x489.jpg 768w" sizes="(max-width: 876px) 100vw, 876px" /></noscript></div>
-                          <div class="fl-slide-bg-photo" data-rocket-lazy-bg-dc678e6d-3d7f-462b-aebf-65b2b9f09117="loaded"></div>
-                          <div class="fl-slide-foreground clearfix">
-                            <div class="fl-slide-content-wrap">
-                              <div class="fl-slide-content">
-                                <h2 class="fl-slide-title">Ahli dalam Pemasangan Kanopi</h2>
-                                <div class="fl-slide-text">
-                                  <p>Dengan latar belakang yang solid di bidang ini, kami siap memberikan layanan berkualitas tinggi dan hasil kerja yang memuaskan pelanggan.</p>
-                                </div>
-                              </div>
-                            </div>
+                        @foreach ($data as $index => $item)
+                        @php
+                        $slideClass = $index % 2; // hasilnya 0,1,0,1,...
+                        @endphp
+                        <div class="fl-slide fl-slide-{{ $slideClass }} fl-slide-text-center " style="float: left; list-style: none; position: relative; width: 1437px;" aria-hidden="false">
+                          <div class="fl-slide-mobile-photo">
+                            <img
+                              src="{{ $item['image'] }}"
+                              srcset="
+                                  {{ $item['image'] }} 1280w, 
+                                  {{ $item['image'] }} 800w, 
+                                  {{ $item['image'] }} 768w, 
+                                  {{ $item['image'] }} 300w, 
+                                  {{ $item['image'] }} 150w
+                              "
+                              sizes="(max-width: 1280px) 100vw, 1280px"
+                              alt="barunakanopi.com" />
                           </div>
-                        </div>
-                        <div class="fl-slide fl-slide-0 fl-slide-text-center" style="float: left; list-style: none; position: relative; width: 1437px;" aria-hidden="false">
-                          <div class="fl-slide-mobile-photo"><img fetchpriority="high" decoding="async" width="1280" height="576" loading="false" class="fl-slide-mobile-photo-img wp-image-121" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%201280%20576&#39;%3E%3C/svg%3E" alt="barunakanopi.com" data-lazy-srcset="https://galaxykanopi.com/wp-content/uploads/2024/09/IMG-20240918-WA0036.jpg 1280w, https://galaxykanopi.com/wp-content/uploads/2024/09/IMG-20240918-WA0036-300x135.jpg 300w, https://galaxykanopi.com/wp-content/uploads/2024/09/IMG-20240918-WA0036-800x360.jpg 800w, https://galaxykanopi.com/wp-content/uploads/2024/09/IMG-20240918-WA0036-150x68.jpg 150w, https://galaxykanopi.com/wp-content/uploads/2024/09/IMG-20240918-WA0036-768x346.jpg 768w" data-lazy-sizes="(max-width: 1280px) 100vw, 1280px" data-lazy-src="https://galaxykanopi.com/wp-content/uploads/2024/09/IMG-20240918-WA0036.jpg"><noscript><img fetchpriority="high" decoding="async" width="1280" height="576" loading='false' class="fl-slide-mobile-photo-img wp-image-121" src="https://galaxykanopi.com/wp-content/uploads/2024/09/IMG-20240918-WA0036.jpg" alt="barunakanopi.com" srcset="https://galaxykanopi.com/wp-content/uploads/2024/09/IMG-20240918-WA0036.jpg 1280w, https://galaxykanopi.com/wp-content/uploads/2024/09/IMG-20240918-WA0036-300x135.jpg 300w, https://galaxykanopi.com/wp-content/uploads/2024/09/IMG-20240918-WA0036-800x360.jpg 800w, https://galaxykanopi.com/wp-content/uploads/2024/09/IMG-20240918-WA0036-150x68.jpg 150w, https://galaxykanopi.com/wp-content/uploads/2024/09/IMG-20240918-WA0036-768x346.jpg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></noscript></div>
                           <div class="fl-slide-bg-photo" data-rocket-lazy-bg-cf1ea7b0-3123-481d-9d13-3f6144612cdb="loaded"></div>
                           <div class="fl-slide-foreground clearfix">
                             <div class="fl-slide-content-wrap">
                               <div class="fl-slide-content">
-                                <h2 class="fl-slide-title">Baruna Kanopi</h2>
+                                <h2 class="fl-slide-title">"{{ $item['title'] }}"</h2>
                                 <div class="fl-slide-text">
-                                  <p>Kami hadir untuk memberikan solusi terbaik bagi kebutuhan kanopi berkualitas tinggi yang tidak hanya tahan lama tetapi juga estetis.</p>
+                                  <p>"{{ $item['deskripsi'] }}"</p>
                                 </div>
                               </div>
                             </div>
                           </div>
                         </div>
-                        <div class="fl-slide fl-slide-1 fl-slide-text-center" style="float: left; list-style: none; position: relative; width: 1437px;" aria-hidden="true">
-                          <div class="fl-slide-mobile-photo"><img decoding="async" width="876" height="558" loading="false" class="fl-slide-mobile-photo-img wp-image-129" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20876%20558&#39;%3E%3C/svg%3E" alt="barunakanopi.com" data-lazy-srcset="https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi11.jpg 876w, https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi11-300x191.jpg 300w, https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi11-800x510.jpg 800w, https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi11-150x96.jpg 150w, https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi11-768x489.jpg 768w" data-lazy-sizes="(max-width: 876px) 100vw, 876px" data-lazy-src="https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi11.jpg"><noscript><img decoding="async" width="876" height="558" loading='false' class="fl-slide-mobile-photo-img wp-image-129" src="https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi11.jpg" alt="barunakanopi.com" srcset="https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi11.jpg 876w, https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi11-300x191.jpg 300w, https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi11-800x510.jpg 800w, https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi11-150x96.jpg 150w, https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi11-768x489.jpg 768w" sizes="(max-width: 876px) 100vw, 876px" /></noscript></div>
-                          <div class="fl-slide-bg-photo" data-rocket-lazy-bg-dc678e6d-3d7f-462b-aebf-65b2b9f09117="loaded"></div>
-                          <div class="fl-slide-foreground clearfix">
-                            <div class="fl-slide-content-wrap">
-                              <div class="fl-slide-content">
-                                <h2 class="fl-slide-title">Ahli dalam Pemasangan Kanopi</h2>
-                                <div class="fl-slide-text">
-                                  <p>Dengan latar belakang yang solid di bidang ini, kami siap memberikan layanan berkualitas tinggi dan hasil kerja yang memuaskan pelanggan.</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="fl-slide fl-slide-0 fl-slide-text-center bx-clone" style="float: left; list-style: none; position: relative; width: 1437px;" aria-hidden="true">
-                          <div class="fl-slide-mobile-photo"><img fetchpriority="high" decoding="async" width="1280" height="576" loading="false" class="fl-slide-mobile-photo-img wp-image-121" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%201280%20576&#39;%3E%3C/svg%3E" alt="barunakanopi.com" data-lazy-srcset="https://galaxykanopi.com/wp-content/uploads/2024/09/IMG-20240918-WA0036.jpg 1280w, https://galaxykanopi.com/wp-content/uploads/2024/09/IMG-20240918-WA0036-300x135.jpg 300w, https://galaxykanopi.com/wp-content/uploads/2024/09/IMG-20240918-WA0036-800x360.jpg 800w, https://galaxykanopi.com/wp-content/uploads/2024/09/IMG-20240918-WA0036-150x68.jpg 150w, https://galaxykanopi.com/wp-content/uploads/2024/09/IMG-20240918-WA0036-768x346.jpg 768w" data-lazy-sizes="(max-width: 1280px) 100vw, 1280px" data-lazy-src="https://galaxykanopi.com/wp-content/uploads/2024/09/IMG-20240918-WA0036.jpg"><noscript><img fetchpriority="high" decoding="async" width="1280" height="576" loading='false' class="fl-slide-mobile-photo-img wp-image-121" src="https://galaxykanopi.com/wp-content/uploads/2024/09/IMG-20240918-WA0036.jpg" alt="barunakanopi.com" srcset="https://galaxykanopi.com/wp-content/uploads/2024/09/IMG-20240918-WA0036.jpg 1280w, https://galaxykanopi.com/wp-content/uploads/2024/09/IMG-20240918-WA0036-300x135.jpg 300w, https://galaxykanopi.com/wp-content/uploads/2024/09/IMG-20240918-WA0036-800x360.jpg 800w, https://galaxykanopi.com/wp-content/uploads/2024/09/IMG-20240918-WA0036-150x68.jpg 150w, https://galaxykanopi.com/wp-content/uploads/2024/09/IMG-20240918-WA0036-768x346.jpg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></noscript></div>
-                          <div class="fl-slide-bg-photo" data-rocket-lazy-bg-cf1ea7b0-3123-481d-9d13-3f6144612cdb="loaded"></div>
-                          <div class="fl-slide-foreground clearfix">
-                            <div class="fl-slide-content-wrap">
-                              <div class="fl-slide-content">
-                                <h2 class="fl-slide-title">Baruna Kanopi</h2>
-                                <div class="fl-slide-text">
-                                  <p>Kami hadir untuk memberikan solusi terbaik bagi kebutuhan kanopi berkualitas tinggi yang tidak hanya tahan lama tetapi juga estetis.</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                        @endforeach
                       </div>
                     </div>
                   </div>

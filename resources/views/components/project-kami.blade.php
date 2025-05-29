@@ -46,60 +46,17 @@
                 <div class="fl-mosaicflow m-0" id="jyqkagenxlow">
                   <div class="fl-mosaicflow-content" style="visibility: visible;">
                     <div class="row m-0">
+                      @foreach ($data as $item)
                       <div class="col-6 col-sm-4 p-2">
                         <div class="fl-photo fl-photo-align-center fl-photo-crop-1" itemscope="" itemtype="https://schema.org/ImageObject">
                           <div class="fl-photo-content fl-photo-img-jpg">
-                            <a href="https://galaxykanopi.com/wp-content/uploads/2024/09/Gambar-WhatsApp-2024-09-18-pukul-10.27.32_1f2febf1-600x800.jpg" target="_self" itemprop="url">
-                              <img decoding="async" class="fl-photo-img wp-image-125" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%200%200&#39;%3E%3C/svg%3E" alt="Gambar WhatsApp 2024-09-18 pukul 10.27.32_1f2febf1" itemprop="image" title="barunakanopi.com" data-lazy-src="https://galaxykanopi.com/wp-content/uploads/bb-plugin/cache/Gambar-WhatsApp-2024-09-18-pukul-10.27.32_1f2febf1-600x800-1-089b7b2a43382b98e954783e8152d8e9-.jpg"><noscript><img decoding="async" class="fl-photo-img wp-image-125" src="https://galaxykanopi.com/wp-content/uploads/bb-plugin/cache/Gambar-WhatsApp-2024-09-18-pukul-10.27.32_1f2febf1-600x800-1-089b7b2a43382b98e954783e8152d8e9-.jpg" alt="Gambar WhatsApp 2024-09-18 pukul 10.27.32_1f2febf1" itemprop="image" title="barunakanopi.com" loading='lazy' /></noscript>
+                            <a href="{{ $item['image'] }}" target="_self" itemprop="url">
+                              <img decoding="async" class="fl-photo-img wp-image-125" src="{{ $item['image'] }}" alt="barunakanopi.com" itemprop="image" title="barunakanopi.com" data-lazy-src="{{ $item['image'] }}"><noscript><img decoding="async" class="fl-photo-img wp-image-125" src="{{ $item['image'] }}" alt="barunakanopi.com" itemprop="image" title="barunakanopi.com" loading='lazy' /></noscript>
                             </a>
                           </div>
                         </div>
                       </div>
-                      <div class="col-6 col-sm-4 p-2">
-                        <div class="fl-photo fl-photo-align-center fl-photo-crop-1" itemscope="" itemtype="https://schema.org/ImageObject">
-                          <div class="fl-photo-content fl-photo-img-jpg">
-                            <a href="https://galaxykanopi.com/wp-content/uploads/2024/09/Gambar-WhatsApp-2024-09-18-pukul-10.27.32_1d2a98a4.jpg" target="_self" itemprop="url">
-                              <img decoding="async" class="fl-photo-img wp-image-124" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%200%200&#39;%3E%3C/svg%3E" alt="Gambar WhatsApp 2024-09-18 pukul 10.27.32_1d2a98a4" itemprop="image" title="barunakanopi.com" data-lazy-src="https://galaxykanopi.com/wp-content/uploads/bb-plugin/cache/Gambar-WhatsApp-2024-09-18-pukul-10.27.32_1d2a98a4-1-3fe48ee96fd65629a804e9ce7790ecce-.jpg"><noscript><img decoding="async" class="fl-photo-img wp-image-124" src="https://galaxykanopi.com/wp-content/uploads/bb-plugin/cache/Gambar-WhatsApp-2024-09-18-pukul-10.27.32_1d2a98a4-1-3fe48ee96fd65629a804e9ce7790ecce-.jpg" alt="Gambar WhatsApp 2024-09-18 pukul 10.27.32_1d2a98a4" itemprop="image" title="barunakanopi.com" loading='lazy' /></noscript>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-sm-4 p-2">
-                        <div class="fl-photo fl-photo-align-center fl-photo-crop-1" itemscope="" itemtype="https://schema.org/ImageObject">
-                          <div class="fl-photo-content fl-photo-img-jpg">
-                            <a href="https://galaxykanopi.com/wp-content/uploads/2024/09/Gambar-WhatsApp-2024-09-18-pukul-10.27.32_0e39f465-800x578.jpg" target="_self" itemprop="url">
-                              <img decoding="async" class="fl-photo-img wp-image-123" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%200%200&#39;%3E%3C/svg%3E" alt="Gambar WhatsApp 2024-09-18 pukul 10.27.32_0e39f465" itemprop="image" title="barunakanopi.com" data-lazy-src="https://galaxykanopi.com/wp-content/uploads/bb-plugin/cache/Gambar-WhatsApp-2024-09-18-pukul-10.27.32_0e39f465-800x578-1-1f9c91512dc68b12ba296f865beb6873-.jpg"><noscript><img decoding="async" class="fl-photo-img wp-image-123" src="https://galaxykanopi.com/wp-content/uploads/bb-plugin/cache/Gambar-WhatsApp-2024-09-18-pukul-10.27.32_0e39f465-800x578-1-1f9c91512dc68b12ba296f865beb6873-.jpg" alt="Gambar WhatsApp 2024-09-18 pukul 10.27.32_0e39f465" itemprop="image" title="barunakanopi.com" loading='lazy' /></noscript>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-sm-4 p-2">
-                        <div class="fl-photo fl-photo-align-center fl-photo-crop-1" itemscope="" itemtype="https://schema.org/ImageObject">
-                          <div class="fl-photo-content fl-photo-img-jpg">
-                            <a href="https://galaxykanopi.com/wp-content/uploads/2024/09/IMG-20240918-WA0037-600x800.jpg" target="_self" itemprop="url">
-                              <img decoding="async" class="fl-photo-img wp-image-122" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%200%200&#39;%3E%3C/svg%3E" alt="IMG-20240918-WA0037" itemprop="image" title="barunakanopi.com" data-lazy-src="https://galaxykanopi.com/wp-content/uploads/bb-plugin/cache/IMG-20240918-WA0037-600x800-1-4902cd4147e69932302163faddc45c27-.jpg"><noscript><img decoding="async" class="fl-photo-img wp-image-122" src="https://galaxykanopi.com/wp-content/uploads/bb-plugin/cache/IMG-20240918-WA0037-600x800-1-4902cd4147e69932302163faddc45c27-.jpg" alt="IMG-20240918-WA0037" itemprop="image" title="barunakanopi.com" loading='lazy' /></noscript>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-sm-4 p-2">
-                        <div class="fl-photo fl-photo-align-center fl-photo-crop-1" itemscope="" itemtype="https://schema.org/ImageObject">
-                          <div class="fl-photo-content fl-photo-img-jpg">
-                            <a href="https://galaxykanopi.com/wp-content/uploads/2024/09/IMG-20240918-WA0036-800x360.jpg" target="_self" itemprop="url">
-                              <img decoding="async" class="fl-photo-img wp-image-121" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%200%200&#39;%3E%3C/svg%3E" alt="IMG-20240918-WA0036" itemprop="image" title="barunakanopi.com" data-lazy-src="https://galaxykanopi.com/wp-content/uploads/bb-plugin/cache/IMG-20240918-WA0036-800x360-1-3b7fb795016cbcdede1c8c59890226b7-.jpg"><noscript><img decoding="async" class="fl-photo-img wp-image-121" src="https://galaxykanopi.com/wp-content/uploads/bb-plugin/cache/IMG-20240918-WA0036-800x360-1-3b7fb795016cbcdede1c8c59890226b7-.jpg" alt="IMG-20240918-WA0036" itemprop="image" title="barunakanopi.com" loading='lazy' /></noscript>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 col-sm-4 p-2">
-                        <div class="fl-photo fl-photo-align-center fl-photo-crop-1" itemscope="" itemtype="https://schema.org/ImageObject">
-                          <div class="fl-photo-content fl-photo-img-jpg">
-                            <a href="https://galaxykanopi.com/wp-content/uploads/2024/09/IMG-20240918-WA0035-800x600.jpg" target="_self" itemprop="url">
-                              <img decoding="async" class="fl-photo-img wp-image-120" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%200%200&#39;%3E%3C/svg%3E" alt="IMG-20240918-WA0035" itemprop="image" title="barunakanopi.com" data-lazy-src="https://galaxykanopi.com/wp-content/uploads/bb-plugin/cache/IMG-20240918-WA0035-800x600-1-97448c7fcc1e12cec33bd3b6564a8b42-.jpg"><noscript><img decoding="async" class="fl-photo-img wp-image-120" src="https://galaxykanopi.com/wp-content/uploads/bb-plugin/cache/IMG-20240918-WA0035-800x600-1-97448c7fcc1e12cec33bd3b6564a8b42-.jpg" alt="IMG-20240918-WA0035" itemprop="image" title="barunakanopi.com" loading='lazy' /></noscript>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
+                      @endforeach
                     </div>
                     <div style="visibility: hidden; width: 100%;"></div>
                     <div class="fl-mosaicflow-col" style="width: 33.3333%;"></div>

@@ -1,5 +1,5 @@
 <section id="testimoni" class="fl-row fl-row-full-width fl-row-bg-none fl-node-m7nd4otep5qb fl-row-default-height fl-row-align-center" data-node="m7nd4otep5qb">
-  <div class="fl-row-content-wrap">
+  <div class="fl-row-content-wrap" style="padding-bottom: 0;">
     <div class="fl-row-content fl-row-fixed-width fl-node-content">
 
       <div class="fl-col-group fl-node-5uwya69qkldg fl-col-group-equal-height fl-col-group-align-center" data-node="5uwya69qkldg">

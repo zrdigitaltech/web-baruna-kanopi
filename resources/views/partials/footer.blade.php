@@ -13,50 +13,18 @@
                   </h3>
                 </div>
               </div>
-              <div class="fl-module fl-module-icon fl-node-mrcsita0lob4" data-node="mrcsita0lob4">
-                <div class="fl-module-content fl-node-content">
-                  <div class="fl-icon-wrap">
-                    <span class="fl-icon">
-                      <a href="#" target="_self" tabindex="-1" aria-hidden="true" aria-labelledby="fl-icon-text-mrcsita0lob4">
-                        <i class="fas fa-map-marked-alt" aria-hidden="true"></i>
-                      </a>
-                    </span>
-                    <div id="fl-icon-text-mrcsita0lob4" class="fl-icon-text">
-                      <a href="#" target="_self" class="fl-icon-text-link fl-icon-text-wrap">
-                        <p><strong>Jabodetabek</strong>:<br>Gading Serpong, Ruko Pisa Grande</p>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
               <div class="fl-module fl-module-icon fl-node-ugqv8odk5f49" data-node="ugqv8odk5f49">
                 <div class="fl-module-content fl-node-content">
                   <div class="fl-icon-wrap">
                     <span class="fl-icon">
-                      <a href="#" target="_self" tabindex="-1" aria-hidden="true" aria-labelledby="fl-icon-text-ugqv8odk5f49">
+                      <div tabindex="-1" aria-hidden="true" aria-labelledby="fl-icon-text-ugqv8odk5f49">
                         <i class="fas fa-map-marked-alt" aria-hidden="true"></i>
-                      </a>
+                      </div>
                     </span>
                     <div id="fl-icon-text-ugqv8odk5f49" class="fl-icon-text">
-                      <a href="#" target="_self" class="fl-icon-text-link fl-icon-text-wrap">
-                        <p><strong>Bogor</strong>:<br>Bogor, Jawa Barat</p>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="fl-module fl-module-icon fl-node-9uslcjz72mfb" data-node="9uslcjz72mfb">
-                <div class="fl-module-content fl-node-content">
-                  <div class="fl-icon-wrap">
-                    <span class="fl-icon">
-                      <a href="#" target="_self" tabindex="-1" aria-hidden="true" aria-labelledby="fl-icon-text-9uslcjz72mfb">
-                        <i class="fas fa-map-marked-alt" aria-hidden="true"></i>
-                      </a>
-                    </span>
-                    <div id="fl-icon-text-9uslcjz72mfb" class="fl-icon-text">
-                      <a href="#" target="_self" class="fl-icon-text-link fl-icon-text-wrap">
-                        <p><strong>Bandung</strong>:<br>Kolonel Masturi, Cimahi</p>
-                      </a>
+                      <div class="fl-icon-text-link fl-icon-text-wrap">
+                        <p><strong>Alamat:</strong>:<br>Jalan Raya Pendidikan, desa rawakalong, kec.Gunung.Sindur, Bogor, Bogor, Jawa Barat</p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -65,13 +33,13 @@
                 <div class="fl-module-content fl-node-content">
                   <div class="fl-icon-wrap">
                     <span class="fl-icon">
-                      <a href="tel:081347152882" target="_blank" tabindex="-1" aria-hidden="true" aria-labelledby="fl-icon-text-18edohsqcpyg" rel="noopener">
+                      <a href="tel:081564625901" target="_blank" tabindex="-1" aria-hidden="true" aria-labelledby="fl-icon-text-18edohsqcpyg" rel="noopener">
                         <i class="fas fa-phone" aria-hidden="true"></i>
                       </a>
                     </span>
                     <div id="fl-icon-text-18edohsqcpyg" class="fl-icon-text">
-                      <a href="tel:081347152882" target="_blank" class="fl-icon-text-link fl-icon-text-wrap" rel="noopener">
-                        <p>081347152882</p>
+                      <a href="tel:081564625901" target="_blank" class="fl-icon-text-link fl-icon-text-wrap" rel="noopener">
+                        <p> 081564625901</p>
                       </a>
                     </div>
                   </div>
@@ -84,7 +52,7 @@
               <div class="fl-module fl-module-heading fl-node-3dylvt0msrni" data-node="3dylvt0msrni">
                 <div class="fl-module-content fl-node-content">
                   <h3 class="fl-heading">
-                    <span class="fl-heading-text">Link-Link</span>
+                    <span class="fl-heading-text">BarunaKanopi</span>
                   </h3>
                 </div>
               </div>
@@ -96,8 +64,9 @@
                       <div class="fl-module-content fl-node-content">
                         <div class="fl-rich-text">
                           <p><a href="#profil">Profil</a></p>
-                          <p><a href="#layanan">Layanan</a></p>
-                          <p><a href="#project">Project</a></p>
+                          <p><a href="#keunggulan">Keunggulan</a></p>
+                          <p><a href="#alasan">Alasan Memilih</a></p>
+                          <p><a href="#layanan">Jenis Kanopi</a></p>
                         </div>
                       </div>
                     </div>
@@ -108,9 +77,9 @@
                     <div class="fl-module fl-module-rich-text fl-node-xn0ierudcpal" data-node="xn0ierudcpal">
                       <div class="fl-module-content fl-node-content">
                         <div class="fl-rich-text">
-                          <p><a href="#galeri">Galeri</a></p>
+                          <p><a href="#project">Portofolio</a></p>
                           <p><a href="#testimoni">Testimoni</a></p>
-                          <p><a href="#artikel">Artikel</a></p>
+                          <p><a href="#goolge-maps">Kontak</a></p>
                         </div>
                       </div>
                     </div>
