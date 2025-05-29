@@ -459,13 +459,13 @@
 <link rel="stylesheet" href="{{ asset('assets/css/all.min.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/jquery.magnificpopup.min.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/11-layout.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/css/velocity-addons-public.css') }}">
+{{-- <link rel="stylesheet" href="{{ asset('assets/css/velocity-addons-public.css') }}"> --}}
 <link rel="stylesheet" href="{{ asset('assets/css/cea0e7464294f2aa4beeabfdf44c52f8-layout-bundle.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/css/style(1).css') }}">
+{{-- <link rel="stylesheet" href="{{ asset('assets/css/style(1).css') }}"> --}}
 <link rel="stylesheet" href="{{ asset('assets/css/theme.min.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/css/dashicons.min.css') }}">
+{{-- <link rel="stylesheet" href="{{ asset('assets/css/dashicons.min.css') }}"> --}}
 
 {{-- <style id="rocket-lazyload-inline-css">
   .rll-youtube-player {

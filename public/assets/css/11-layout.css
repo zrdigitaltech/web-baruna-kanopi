@@ -797,7 +797,8 @@ img.mfp-img{
   max-width:900px
 }
 .fl-node-l5cazrhw9t8u>.fl-row-content-wrap{
-  padding-bottom:70px
+  padding-bottom:70px;
+  padding-top:70px;
 }
 .fl-node-1nkivub8tzof>.fl-row-content-wrap{
   background-color:var(--fl-global-primary)

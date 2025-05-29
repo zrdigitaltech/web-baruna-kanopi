@@ -1,7 +1,7 @@
 var wpAjaxUrl = "";
 var flBuilderUrl = "";
 var FLBuilderLayoutConfig = {
-    anchorLinkAnimations: { duration: 1000, easing: "swing", offset: 100 },
+    anchorLinkAnimations: { duration: 1000, easing: "swing", offset: -10 },
     paths: {
         pluginUrl: "",
         wpAjaxUrl: "",

@@ -21,9 +21,9 @@
     @include('partials.footer')
   </div>
 
-  <script type="speculationrules">
+  {{-- <script type="speculationrules">
     {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/velocity-child\/*","\/wp-content\/themes\/velocity\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
-</script>
+  </script> --}}
   <div class="floating-footer float-wa-right float-scrolltop-right"></div>
   <div class="floating-footer float-wa-right float-scrolltop-right">
     <div class="whatsapp-floating floating-button right scroll-active scroll-right ">
@@ -49,8 +49,8 @@
   <script src="{{ asset('assets/js/jquery.imagesloaded.min.js') }}"></script>
   <script src="{{ asset('assets/js/jquery.magnificpopup.min.js') }}"></script>
   <script src="{{ asset('assets/js/11-layout.js') }}"></script>
-  <script src="{{ asset('assets/js/jquery.ba-throttle-debounce.min.js') }}"></script>
-  <script src="{{ asset('assets/js/29f07c8e71da65aa6e649d8f8c494d51-layout-bundle.js') }}"></script>
+  {{-- <script src="{{ asset('assets/js/jquery.ba-throttle-debounce.min.js') }}"></script> --}}
+  {{-- <script src="{{ asset('assets/js/29f07c8e71da65aa6e649d8f8c494d51-layout-bundle.js') }}"></script> --}}
 
   <script id="rocket_lazyload_css-js-extra">
     var rocket_lazyload_css_data = {

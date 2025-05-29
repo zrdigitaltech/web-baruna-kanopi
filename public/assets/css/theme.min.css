@@ -181,15 +181,6 @@
     /* :root{
         scroll-behavior:smooth
     } */
-
-    
-}
-section[id]::before {
-  content: "";
-  display: block;
-  height: 60px;
-  margin-top: 30px;
-  visibility: hidden;
 }
 body{
     margin:0;
