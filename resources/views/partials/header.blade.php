@@ -38,8 +38,8 @@
                         <li class=""><a href="#profil">Profil</a></li> {{--current-menu-item--}}
                         <li><a href="#keunggulan">Keunggulan</a></li>
                         <li><a href="#alasan">Alasan Memilih</a></li>
-                        <li><a href="#layanan">Jenis Kanopi</a></li>
-                        <li><a href="#project">Portofolio</a></li>
+                        <li><a href="#jenis-kanopi">Jenis Kanopi</a></li>
+                        <li><a href="#portofolio">Portofolio</a></li>
                         <li><a href="#testimoni">Testimoni</a></li>
                         <li><a href="#goolge-maps">Kontak</a></li>
                       </ul>

@@ -66,7 +66,7 @@
                           <p><a href="#profil">Profil</a></p>
                           <p><a href="#keunggulan">Keunggulan</a></p>
                           <p><a href="#alasan">Alasan Memilih</a></p>
-                          <p><a href="#layanan">Jenis Kanopi</a></p>
+                          <p><a href="#jenis-kanopi">Jenis Kanopi</a></p>
                         </div>
                       </div>
                     </div>
@@ -77,7 +77,7 @@
                     <div class="fl-module fl-module-rich-text fl-node-xn0ierudcpal" data-node="xn0ierudcpal">
                       <div class="fl-module-content fl-node-content">
                         <div class="fl-rich-text">
-                          <p><a href="#project">Portofolio</a></p>
+                          <p><a href="#portofolio">Portofolio</a></p>
                           <p><a href="#testimoni">Testimoni</a></p>
                           <p><a href="#goolge-maps">Kontak</a></p>
                         </div>

@@ -12,4 +12,7 @@
 <x-project-kami :data="$dataPortofolio" />
 <x-testimonial />
 <x-google-maps />
+
+<x-whatsapp-kami />
+<x-terima-kasih />
 @endsection
