@@ -11,7 +11,7 @@
                 <div class="fl-module-content fl-node-content">
                   <div class="fl-photo fl-photo-align-left" itemscope="" itemtype="https://schema.org/ImageObject">
                     <div class="fl-photo-content fl-photo-img-png">
-                      <a href="/" target="_self" itemprop="url">
+                      <a href="#beranda" target="_self" itemprop="url">
                         <img decoding="async" class="fl-photo-img wp-image-38 size-full" src="https://placehold.co/300x56/FFFFFF/111/png?text=BarunaKanopi" alt="logo-header" itemprop="image" height="56" width="300" title="logo-header" data-no-lazy="1" srcset="https://placehold.co/300x56/FFFFFF/111/png?text=BarunaKanopi 300w, https://placehold.co/300x56/FFFFFF/111/png?text=BarunaKanopi 150w" sizes="(max-width: 300px) 100vw, 300px">
                       </a>
                     </div>
