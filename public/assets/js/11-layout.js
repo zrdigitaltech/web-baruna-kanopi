@@ -841,11 +841,55 @@ var FLBuilderLayoutConfig = {
             FLBuilderLayout._scrollToElement(element, callback);
             e.preventDefault();
         },
+        _scrollSpy: function () {
+            var sections = [];
+            var $menuLinks = $("#menu-menu-utama a[href^='#']");
+
+            // Ambil semua target ID
+            $menuLinks.each(function () {
+                var id = $(this).attr("href").split("#")[1];
+                var $target = $("#" + id);
+                if ($target.length) {
+                    sections.push({
+                        id: id,
+                        top: $target.offset().top,
+                        height: $target.outerHeight(),
+                    });
+                }
+            });
+
+            // Scroll listener
+            $(window).on("scroll", function () {
+                var scrollPos =
+                    $(document).scrollTop() +
+                    FLBuilderLayoutConfig.anchorLinkAnimations.offset;
+                // pastikan offset negatif bisa dipakai
+
+                var currentSectionId = null;
+
+                for (var i = 0; i < sections.length; i++) {
+                    var s = sections[i];
+                    if (scrollPos >= s.top && scrollPos < s.top + s.height) {
+                        currentSectionId = s.id;
+                        break;
+                    }
+                }
+
+                // Update menu
+                if (currentSectionId) {
+                    $("#menu-menu-utama li").removeClass("current-menu-item");
+                    $('#menu-menu-utama a[href="#' + currentSectionId + '"]')
+                        .parent()
+                        .addClass("current-menu-item");
+                }
+            });
+        },
         _scrollToElement: function (element, callback) {
             var config = FLBuilderLayoutConfig.anchorLinkAnimations,
                 dest = 0,
                 win = $(window),
                 doc = $(document);
+
             if (element.length > 0) {
                 if (
                     "fixed" === element.css("position") ||
@@ -857,6 +901,7 @@ var FLBuilderLayoutConfig = {
                 } else {
                     dest = element.offset().top - config.offset;
                 }
+
                 $("html, body").animate(
                     { scrollTop: dest },
                     config.duration,
@@ -865,15 +910,26 @@ var FLBuilderLayoutConfig = {
                         if ("undefined" != typeof callback) {
                             callback();
                         }
-                        if (undefined != element.attr("id")) {
+
+                        // === Tambahan: Aktifkan menu ===
+                        if (undefined !== element.attr("id")) {
+                            var id = element.attr("id");
+
+                            // Hapus semua class active dari menu
+                            $("#menu-menu-utama li").removeClass(
+                                "current-menu-item"
+                            );
+
+                            // Tambahkan class active ke item yang cocok
+                            $('#menu-menu-utama a[href="#' + id + '"]')
+                                .parent()
+                                .addClass("current-menu-item");
+
+                            // Update URL hash
                             if (history.pushState) {
-                                history.pushState(
-                                    null,
-                                    null,
-                                    "#" + element.attr("id")
-                                );
+                                history.pushState(null, null, "#" + id);
                             } else {
-                                window.location.hash = element.attr("id");
+                                window.location.hash = id;
                             }
                         }
                     }
