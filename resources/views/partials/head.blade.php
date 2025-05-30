@@ -551,16 +551,17 @@
   }
 
   :root[data-bs-theme=light] {
-    --bs-link-color: #fb6835;
+    --bs-link-color: #0D47A1;
   }
 
   :root {
-    --bs-primary: #fb6835;
-    --primary: #fb6835;
+    --bs-primary: #0D47A1;
+    /*#fb6835;*/
+    --primary: #0D47A1;
   }
 
   [data-bs-theme=dark] {
-    --bs-link-hover-color: #fb6835;
+    --bs-link-hover-color: #0D47A1;
   }
 
   :root[data-bs-theme=light] body {
