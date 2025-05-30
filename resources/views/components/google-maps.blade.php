@@ -4,9 +4,10 @@
     width="100%"
     height="460"
     style="border:0; display: block;margin-top: 80px;"
-    allowfullscreen=""
+    allowfullscreen
     loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade">
+    referrerpolicy="no-referrer-when-downgrade"
+    title="Lokasi Google Maps Baruna Kanopi">
   </iframe>
 
 </section>
