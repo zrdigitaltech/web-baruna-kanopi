@@ -19,7 +19,7 @@ class HomeController extends Controller
             ['id' => 1, 'image' => 'https://placehold.co/525x525', 'nama' => 'Kanopi Alderon <br class="d-sm-none"/> Single', 'deskripsi' => 'Ringan, tahan lama & cocok untuk teras.'],
             ['id' => 2, 'image' => 'https://placehold.co/525x525', 'nama' => 'Kanopi Alderon <br class="d-sm-none"/> Double', 'deskripsi' => 'Ganda, sejuk & redam suara lebih baik.'],
             ['id' => 3, 'image' => 'https://placehold.co/525x525', 'nama' => 'Kanopi <br class="d-sm-none"/> Solar Flat', 'deskripsi' => 'Atap rata, terang alami & tahan cuaca.'],
-            ['id' => 4, 'image' => 'https://placehold.co/525x525', 'nama' => 'Kanopi <br class="d-sm-none"/> Baja Ringan', 'deskripsi' => 'Kuat, ringan, dan tahan lama.'],
+            ['id' => 4, 'image' => 'https://placehold.co/525x525', 'nama' => 'Kanopi <br class="d-sm-none"/> Baja Ringan', 'deskripsi' => 'Kuat, ringan, <br/> dan tahan lama.'],
             ['id' => 5, 'image' => 'https://placehold.co/525x525', 'nama' => 'Kanopi <br class="d-sm-none"/> Polycarbonate', 'deskripsi' => 'Transparan, kuat & tampak elegan.'],
             ['id' => 6, 'image' => 'https://placehold.co/525x525', 'nama' => 'Kanopi Solar <br class="d-sm-none"/> Flat Sliding', 'deskripsi' => 'Geser fleksibel, buka tutup sesuai cuaca.'],
         ];
