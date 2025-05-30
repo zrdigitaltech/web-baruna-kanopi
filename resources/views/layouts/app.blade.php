@@ -235,6 +235,19 @@
   <!-- scripts -->
   <!-- <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> -->
 
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker
+        .register("/service-worker.js")
+        .then((reg) => {
+          console.log("Service Worker terdaftar:", reg);
+        })
+        .catch((err) => {
+          console.error("Service Worker gagal:", err);
+        });
+    }
+  </script>
+
 </body>
 
 </html>

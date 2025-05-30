@@ -22,10 +22,12 @@
 <!-- / SEO by ZRDigitalTech -->
 
 <link rel="manifest" href="{{ asset('manifest.json') }}">
+
 <link rel="stylesheet" href="{{ asset('assets/css/css') }}">
 <link rel="stylesheet" href="{{ asset('assets/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.woff2') }}">
 <link rel="stylesheet" href="{{ asset('assets/fonts/fontawesome/5.15.4/webfonts/fa-solid-900.woff2') }}">
 <link rel="stylesheet" href="{{ asset('assets/fonts/fontawesome/5.15.4/webfonts/fa-regular-400.woff2') }}">
+
 {{-- <style id="wp-emoji-styles-inline-css">
   img.wp-smiley,
   img.emoji {
