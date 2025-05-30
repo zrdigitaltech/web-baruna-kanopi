@@ -71,7 +71,7 @@
                       </div>
                     </div>
                     <h3 class="fl-callout-title"><span class="fl-callout-title-text">{!! $item['nama'] !!}</span></h3>
-                    <div class="whatsapp-floating floating-button right scroll-active scroll-right" style="position: static;">
+                    <div class="whatsapp-floating floating-button right scroll-active scroll-right" style="position: static;box-shadow: none !important;">
                       {{-- href="https://wa.me/6281234567890?text=Halo%20Baruna%20Kanopi,%20saya%20menghubungi%20Anda%20dari%20website%20mengenai%20{{ urlencode($item['nama']) }}.%20Bisakah%20saya%20mendapatkan%20info%20lebih%20lanjut?" --}}
                       <a href="#" rel="noopener" data-id="{{ $item['id'] }}" data-nama="{{ $item['nama'] }}" class="text-white openWhatsappModal">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
