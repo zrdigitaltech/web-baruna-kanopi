@@ -27,7 +27,7 @@
                   </div>
                   <div class="fl-cta-button">
                     <div class="fl-button-wrap fl-button-width-full fl-button-has-icon">
-                      <a href="https://wa.me/6281234567890?text=Halo%20Baruna%20Kanopi,%20saya%20menghubungi%20Anda%20dari%20website.%20Bisakah%20saya%20mendapatkan%20info%20lebih%20lanjut?" target="_blank" class="fl-button" rel="noopener">
+                      <a href="javascript:void(0)" class="fl-button openWhatsappModal" rel="noopener">
                         <i class="fl-button-icon fl-button-icon-before fab fa-whatsapp" aria-hidden="true"></i>
                         <span class="fl-button-text">WhatsApp Kami</span>
                       </a>

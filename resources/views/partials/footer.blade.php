@@ -31,18 +31,17 @@
               </div>
               <div class="fl-module fl-module-icon fl-node-18edohsqcpyg" data-node="18edohsqcpyg">
                 <div class="fl-module-content fl-node-content">
-                  <div class="fl-icon-wrap">
-                    <span class="fl-icon">
-                      <a href="tel:081564625901" target="_blank" tabindex="-1" aria-hidden="true" aria-labelledby="fl-icon-text-18edohsqcpyg" rel="noopener">
+                  <a href="javascript:void(0)" class="openWhatsappModal">
+                    <div class="fl-icon-wrap">
+                      <span class="fl-icon">
                         <i class="fas fa-phone" aria-hidden="true"></i>
-                      </a>
-                    </span>
-                    <div id="fl-icon-text-18edohsqcpyg" class="fl-icon-text">
-                      <a href="tel:081564625901" target="_blank" class="fl-icon-text-link fl-icon-text-wrap" rel="noopener">
-                        <p> 081564625901</p>
-                      </a>
+
+                      </span>
+                      <div id="fl-icon-text-18edohsqcpyg" class="fl-icon-text">
+                        <p> +628156462xxxx</p>
+                      </div>
                     </div>
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -121,7 +120,8 @@
                 <div class="fl-module-content fl-node-content">
                   <div class="fl-rich-text">
                     <p class="text-center mb-0">© 2025 Baruna Kanopi. All Rights Reserved.</p>
-                    <p class="design-by">Design by <a href="https://velocitydeveloper.com/" target="_blank" rel="noopener">Velocity Developer</a>.</p>
+                    <p class="text-center">Website by <a href="https://zrdigitaltech.github.io" target="_blank" rel="noopener">ZRDigitalTech</a></p>
+                    </p>
                   </div>
                 </div>
               </div>
