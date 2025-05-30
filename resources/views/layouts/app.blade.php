@@ -54,7 +54,7 @@
       "threshold": "300"
     };
   </script>
-  <script id="rocket_lazyload_css-js-after">
+  {{-- <script id="rocket_lazyload_css-js-after">
     ! function o(n, c, a) {
       function s(t, e) {
         if (!c[t]) {
@@ -135,7 +135,7 @@
       }, {}]
     }, {}, [1]);
     //# sourceMappingURL=lazyload-css.min.js.map
-  </script>
+  </script> --}}
   <script src="{{ asset('assets/js/custom.js') }}"></script>
   {{-- <script id="justg-scripts-js-extra">
     var opt = {

@@ -29,7 +29,7 @@
                               sizes="(max-width: 1280px) 100vw, 1280px"
                               alt="barunakanopi.com" />
                           </div>
-                          <div class="fl-slide-bg-photo" data-rocket-lazy-bg-cf1ea7b0-3123-481d-9d13-3f6144612cdb="loaded"></div>
+                          <div class="fl-slide-bg-photo"></div>
                           <div class="fl-slide-foreground clearfix">
                             <div class="fl-slide-content-wrap">
                               <div class="fl-slide-content">

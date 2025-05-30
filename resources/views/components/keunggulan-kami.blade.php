@@ -48,7 +48,9 @@
                     <div class="fl-callout-photo">
                       <div class="fl-photo fl-photo-align- fl-photo-crop-panorama" itemscope="" itemtype="https://schema.org/ImageObject">
                         <div class="fl-photo-content fl-photo-img-jpeg">
-                          <img decoding="async" class="fl-photo-img wp-image-48 size-full" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%201200%20675&#39;%3E%3C/svg%3E" alt="barunakanopi.com" itemprop="image" height="675" width="1200" title="barunakanopi.com" data-lazy-src="https://galaxykanopi.com/wp-content/uploads/bb-plugin/cache/galaxykanopi.com-6-panorama-0f285c780ff44f385946212f39a7b6ee-.jpeg"><noscript><img decoding="async" class="fl-photo-img wp-image-48 size-full" src="https://galaxykanopi.com/wp-content/uploads/bb-plugin/cache/galaxykanopi.com-6-panorama-0f285c780ff44f385946212f39a7b6ee-.jpeg" alt="barunakanopi.com" itemprop="image" height="675" width="1200" title="barunakanopi.com" loading='lazy' /></noscript>
+                          <img decoding="async" class="fl-photo-img wp-image-48 size-full"
+                            src="https://placehold.co/1200x600" alt="barunakanopi.com" itemprop="image" height="675" width="1200" title="barunakanopi.com"
+                            data-lazy-src="https://placehold.co/1200x600">
                         </div>
                       </div>
                     </div>
@@ -73,7 +75,9 @@
                     <div class="fl-callout-photo">
                       <div class="fl-photo fl-photo-align- fl-photo-crop-panorama" itemscope="" itemtype="https://schema.org/ImageObject">
                         <div class="fl-photo-content fl-photo-img-jpeg">
-                          <img decoding="async" class="fl-photo-img wp-image-45 size-full" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%201200%20675&#39;%3E%3C/svg%3E" alt="barunakanopi.com" itemprop="image" height="675" width="1200" title="barunakanopi.com" data-lazy-src="https://galaxykanopi.com/wp-content/uploads/bb-plugin/cache/galaxykanopi.com-3-panorama-50c66b947145e47f1049797887b4cacc-.jpeg"><noscript><img decoding="async" class="fl-photo-img wp-image-45 size-full" src="https://galaxykanopi.com/wp-content/uploads/bb-plugin/cache/galaxykanopi.com-3-panorama-50c66b947145e47f1049797887b4cacc-.jpeg" alt="barunakanopi.com" itemprop="image" height="675" width="1200" title="barunakanopi.com" loading='lazy' /></noscript>
+                          <img decoding="async" class="fl-photo-img wp-image-45 size-full"
+                            src="https://placehold.co/1200x600" alt="barunakanopi.com" itemprop="image" height="675" width="1200" title="barunakanopi.com"
+                            data-lazy-src="https://placehold.co/1200x600">
                         </div>
                       </div>
                     </div>
@@ -98,7 +102,9 @@
                     <div class="fl-callout-photo">
                       <div class="fl-photo fl-photo-align- fl-photo-crop-panorama" itemscope="" itemtype="https://schema.org/ImageObject">
                         <div class="fl-photo-content fl-photo-img-jpeg">
-                          <img decoding="async" class="fl-photo-img wp-image-47 size-full" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%201200%20675&#39;%3E%3C/svg%3E" alt="barunakanopi.com" itemprop="image" height="675" width="1200" title="barunakanopi.com" data-lazy-src="https://galaxykanopi.com/wp-content/uploads/bb-plugin/cache/galaxykanopi.com-5-panorama-18ec58d58f8867657b40636eb2efb359-.jpeg"><noscript><img decoding="async" class="fl-photo-img wp-image-47 size-full" src="https://galaxykanopi.com/wp-content/uploads/bb-plugin/cache/galaxykanopi.com-5-panorama-18ec58d58f8867657b40636eb2efb359-.jpeg" alt="barunakanopi.com" itemprop="image" height="675" width="1200" title="barunakanopi.com" loading='lazy' /></noscript>
+                          <img decoding="async" class="fl-photo-img wp-image-47 size-full"
+                            src="https://placehold.co/1200x600" alt="barunakanopi.com" itemprop="image" height="675" width="1200" title="barunakanopi.com"
+                            data-lazy-src="https://placehold.co/1200x600">
                         </div>
                       </div>
                     </div>
@@ -126,7 +132,8 @@
                     <div class="fl-callout-photo">
                       <div class="fl-photo fl-photo-align- fl-photo-crop-panorama" itemscope="" itemtype="https://schema.org/ImageObject">
                         <div class="fl-photo-content fl-photo-img-jpg">
-                          <img decoding="async" class="fl-photo-img wp-image-132 size-full" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20525%20262&#39;%3E%3C/svg%3E" alt="barunakanopi.com" itemprop="image" height="262" width="525" title="barunakanopi.com" data-lazy-src="https://galaxykanopi.com/wp-content/uploads/bb-plugin/cache/galaxykanopierer-panorama-eb00e483af2fb241fe56489bc376da05-.jpg"><noscript><img decoding="async" class="fl-photo-img wp-image-132 size-full" src="https://galaxykanopi.com/wp-content/uploads/bb-plugin/cache/galaxykanopierer-panorama-eb00e483af2fb241fe56489bc376da05-.jpg" alt="barunakanopi.com" itemprop="image" height="262" width="525" title="barunakanopi.com" loading='lazy' /></noscript>
+                          <img decoding="async" class="fl-photo-img wp-image-132 size-full" src="https://placehold.co/1200x600" alt="barunakanopi.com" itemprop="image" height="262" width="525" title="barunakanopi.com"
+                            data-lazy-src="https://placehold.co/1200x600">
                         </div>
                       </div>
                     </div>
@@ -151,7 +158,9 @@
                     <div class="fl-callout-photo">
                       <div class="fl-photo fl-photo-align- fl-photo-crop-panorama" itemscope="" itemtype="https://schema.org/ImageObject">
                         <div class="fl-photo-content fl-photo-img-jpg">
-                          <img decoding="async" class="fl-photo-img wp-image-133 size-full" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20525%20262&#39;%3E%3C/svg%3E" alt="barunakanopi.com" itemprop="image" height="262" width="525" title="barunakanopi.com" data-lazy-src="https://galaxykanopi.com/wp-content/uploads/bb-plugin/cache/galaxykanopifdfdf-panorama-412cbd06b2d1c45cc0c7525807fe0b7b-.jpg"><noscript><img decoding="async" class="fl-photo-img wp-image-133 size-full" src="https://galaxykanopi.com/wp-content/uploads/bb-plugin/cache/galaxykanopifdfdf-panorama-412cbd06b2d1c45cc0c7525807fe0b7b-.jpg" alt="barunakanopi.com" itemprop="image" height="262" width="525" title="barunakanopi.com" loading='lazy' /></noscript>
+                          <img decoding="async" class="fl-photo-img wp-image-133 size-full"
+                            src="https://placehold.co/1200x600" alt="barunakanopi.com" itemprop="image" height="262" width="525" title="barunakanopi.com"
+                            data-lazy-src="https://placehold.co/1200x600">
                         </div>
                       </div>
                     </div>
@@ -176,7 +185,9 @@
                     <div class="fl-callout-photo">
                       <div class="fl-photo fl-photo-align- fl-photo-crop-panorama" itemscope="" itemtype="https://schema.org/ImageObject">
                         <div class="fl-photo-content fl-photo-img-jpeg">
-                          <img decoding="async" class="fl-photo-img wp-image-53 size-full" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20525%20700&#39;%3E%3C/svg%3E" alt="barunakanopi.com" itemprop="image" height="700" width="525" title="barunakanopi.com" data-lazy-src="https://galaxykanopi.com/wp-content/uploads/bb-plugin/cache/galaxykanopi.com-11-panorama-f2b4a4c7454caefb4f165e4fc1fb6f64-.jpeg"><noscript><img decoding="async" class="fl-photo-img wp-image-53 size-full" src="https://galaxykanopi.com/wp-content/uploads/bb-plugin/cache/galaxykanopi.com-11-panorama-f2b4a4c7454caefb4f165e4fc1fb6f64-.jpeg" alt="barunakanopi.com" itemprop="image" height="700" width="525" title="barunakanopi.com" loading='lazy' /></noscript>
+                          <img decoding="async" class="fl-photo-img wp-image-53 size-full"
+                            src="https://placehold.co/1200x600" alt="barunakanopi.com" itemprop="image" height="700" width="525" title="barunakanopi.com"
+                            data-lazy-src="https://placehold.co/1200x600">
                         </div>
                       </div>
                     </div>

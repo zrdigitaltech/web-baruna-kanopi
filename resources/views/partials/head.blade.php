@@ -625,15 +625,20 @@
     }
   </style>
 </noscript> --}}
+
 <style id="wpr-lazyload-bg">
+  /* Mendefinisikan variabel CSS custom property untuk background gambar slider */
   :root {
-    --wpr-bg-cf1ea7b0-3123-481d-9d13-3f6144612cdb: url('/assets/images/IMG-20240918-WA0036.jpg');
+    /* Variabel --wpr-bg-cf1ea7b0-3123-481d-9d13-3f6144612cdb berisi URL gambar placeholder untuk slider */
+    --wpr-bg-cf1ea7b0-3123-481d-9d13-3f6144612cdb: url('https://placehold.co/1280x576');
   }
 
   :root {
-    --wpr-bg-dc678e6d-3d7f-462b-aebf-65b2b9f09117: url('/assets/images/galaxykanopi11.jpg');
+    /* Variabel --wpr-bg-dc678e6d-3d7f-462b-aebf-65b2b9f09117 berisi URL gambar placeholder lain untuk slider */
+    --wpr-bg-dc678e6d-3d7f-462b-aebf-65b2b9f09117: url('https://placehold.co/1280x576');
   }
 </style>
+
 {{-- <style id="wpr-lazyload-bg-exclusion"></style> --}}
 {{-- <noscript>
     <style id="wpr-lazyload-bg-nostyle">

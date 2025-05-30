@@ -9,7 +9,10 @@
               <div class="fl-module-content fl-node-content">
                 <div class="fl-photo fl-photo-align-center" itemscope="" itemtype="https://schema.org/ImageObject">
                   <div class="fl-photo-content fl-photo-img-jpeg">
-                    <img decoding="async" class="fl-photo-img wp-image-50 size-full" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20525%20700&#39;%3E%3C/svg%3E" title="barunakanopi.com" itemprop="image" height="700" width="525" title="barunakanopi.com" data-lazy-srcset="https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi.com-8.jpeg 525w, https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi.com-8-225x300.jpeg 225w, https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi.com-8-113x150.jpeg 113w" data-lazy-sizes="(max-width: 525px) 100vw, 525px" data-lazy-src="https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi.com-8.jpeg"><noscript><img decoding="async" class="fl-photo-img wp-image-50 size-full" src="https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi.com-8.jpeg" title="barunakanopi.com" itemprop="image" height="700" width="525" title="barunakanopi.com" srcset="https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi.com-8.jpeg 525w, https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi.com-8-225x300.jpeg 225w, https://galaxykanopi.com/wp-content/uploads/2024/09/galaxykanopi.com-8-113x150.jpeg 113w" sizes="(max-width: 525px) 100vw, 525px" /></noscript>
+                    <img decoding="async" class="fl-photo-img wp-image-50 size-full"
+                      src="https://placehold.co/527x700" title="barunakanopi.com" itemprop="image" height="700" width="525" title="barunakanopi.com"
+                      data-lazy-srcset="https://placehold.co/527x700 525w, https://placehold.co/527x700 225w, https://placehold.co/527x700 113w" data-lazy-sizes="(max-width: 525px) 100vw, 525px"
+                      data-lazy-src="https://placehold.co/527x700">
                   </div>
                 </div>
               </div>
