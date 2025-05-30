@@ -51,7 +51,7 @@
             <small class="text-danger d-none" id="errorCanopySize"></small>
           </div>
 
-          <button type="submit" class="btn btn-success btn-block w-100">Pemesanan via WhatsApp</button>
+          <button type="submit" class="btn btn-success btn-block w-100">Lanjutkan via WhatsApp</button>
         </form>
       </div>
     </div>
