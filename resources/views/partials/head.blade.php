@@ -1,29 +1,28 @@
+<!-- SEO by ZRDigitalTech -->
+<title>Baruna Kanopi | Jasa Pemasangan Kanopi Profesional & Terpercaya</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Baruna Kanopi | Jasa Pemasangan Kanopi Profesional & Terpercaya</title>
-<link rel="stylesheet" href="{{ asset('assets/css/css') }}">
-{{-- <noscript>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora%3A700%7CRoboto%3A500&#038;display=swap" />
-</noscript> --}}
-{{-- <meta name="robots" content="max-image-preview:large"> --}}
-{{-- <style>
-  img:is([sizes="auto" i], [sizes^="auto," i]) {
-    contain-intrinsic-size: 3000px 1500px
-  }
-</style> --}}
-<!-- SEO by ZRDigitalTech -->
+<meta name="description" content="Baruna Kanopi adalah penyedia jasa pemasangan kanopi terpercaya di Indonesia. Kami menawarkan solusi kanopi berkualitas untuk rumah, toko, dan bangunan komersial dengan harga kompetitif.">
+<meta name="keywords" content="Baruna Kanopi, jasa pemasangan kanopi, ahli kanopi Indonesia, kanopi berkualitas, spesialis kanopi terpercaya, pemasangan kanopi profesional, layanan kanopi Indonesia, tukang kanopi berpengalaman, kanopi rumah dan bangunan">
+<meta name="author" content="ZRDigitalTech">
+
+<!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Baruna Kanopi">
 <meta property="og:url" content="https://barunakanopi.com">
-<meta property="url" content="https://barunakanopi.com">
-<meta name="description" content="Baruna Kanopi adalah penyedia jasa pemasangan kanopi terpercaya di Indonesia. Kami menawarkan solusi kanopi berkualitas untuk rumah, toko, dan bangunan komersial dengan harga kompetitif.">
-<meta name="keywords" content="Baruna Kanopi, jasa pemasangan kanopi, ahli kanopi Indonesia, kanopi berkualitas, spesialis kanopi terpercaya, pemasangan kanopi profesional, layanan kanopi Indonesia, tukang kanopi berpengalaman, kanopi rumah dan bangunan">
-<meta property="og:image" content="https://placehold.co/300x56/FFFFFF/111/png?text=BarunaKanopi">
 <meta property="og:title" content="Baruna Kanopi | Jasa Pemasangan Kanopi Profesional & Terpercaya">
 <meta property="og:description" content="Baruna Kanopi adalah penyedia jasa pemasangan kanopi terpercaya di Indonesia. Kami menawarkan solusi kanopi berkualitas untuk rumah, toko, dan bangunan komersial dengan harga kompetitif.">
-<link rel="manifest" href="{{ asset('manifest.json') }}">
+<meta property="og:image" content="https://placehold.co/1200x630/FFFFFF/111/png?text=Baruna+Kanopi">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Baruna Kanopi | Jasa Pemasangan Kanopi Profesional & Terpercaya">
+<meta name="twitter:description" content="Baruna Kanopi adalah penyedia jasa pemasangan kanopi terpercaya di Indonesia. Kami menawarkan solusi kanopi berkualitas untuk rumah, toko, dan bangunan komersial dengan harga kompetitif.">
+<meta name="twitter:image" content="https://placehold.co/1200x630/FFFFFF/111/png?text=Baruna+Kanopi">
 <!-- / SEO by ZRDigitalTech -->
 
+<link rel="manifest" href="{{ asset('manifest.json') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/css') }}">
 <link rel="stylesheet" href="{{ asset('assets/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.woff2') }}">
 <link rel="stylesheet" href="{{ asset('assets/fonts/fontawesome/5.15.4/webfonts/fa-solid-900.woff2') }}">
 <link rel="stylesheet" href="{{ asset('assets/fonts/fontawesome/5.15.4/webfonts/fa-regular-400.woff2') }}">
