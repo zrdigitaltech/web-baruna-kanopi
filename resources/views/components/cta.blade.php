@@ -29,7 +29,7 @@
                     <div class="fl-button-wrap fl-button-width-full fl-button-has-icon">
                       <a href="#" class="fl-button openWhatsappModal" rel="noopener">
                         <i class="fl-button-icon fl-button-icon-before fab fa-whatsapp" aria-hidden="true"></i>
-                        <span class="fl-button-text">WhatsApp Kami</span>
+                        <span class="fl-button-text">WhatsApp</span>
                       </a>
                     </div>
                   </div>
