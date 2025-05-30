@@ -3,7 +3,7 @@
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header d-flex justify-content-between align-items-center">
-        <h4 class="modal-title mb-0" id="whatsappModalLabel">Form Pemesanan</h4>
+        <h4 class="modal-title mb-0" id="whatsappModalLabel">Hubungi Kami</h4>
         <button type="button" class="close" data-dismiss="modal" aria-label="Tutup" style="font-size: 1.5rem;transition: opacity 0.3s ease;
     background: none;
     border: none;">
@@ -51,7 +51,7 @@
             <small class="text-danger d-none" id="errorCanopySize"></small>
           </div>
 
-          <button type="submit" class="btn btn-success btn-block w-100">Lanjutkan via WhatsApp</button>
+          <button type="submit" class="btn btn-success btn-block w-100">Kirim via WhatsApp</button>
         </form>
       </div>
     </div>
