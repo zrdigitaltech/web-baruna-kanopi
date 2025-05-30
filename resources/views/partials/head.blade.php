@@ -9,7 +9,7 @@
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Baruna Kanopi">
-<meta property="og:url" content="https://barunakanopi.com">
+<meta property="og:url" content="{{ url('/') }}">
 <meta property="og:title" content="Baruna Kanopi | Jasa Pemasangan Kanopi Profesional & Terpercaya">
 <meta property="og:description" content="Baruna Kanopi adalah penyedia jasa pemasangan kanopi terpercaya di Indonesia. Kami menawarkan solusi kanopi berkualitas untuk rumah, toko, dan bangunan komersial dengan harga kompetitif.">
 <meta property="og:image" content="https://placehold.co/1200x630/FFFFFF/111/png?text=Baruna+Kanopi">
