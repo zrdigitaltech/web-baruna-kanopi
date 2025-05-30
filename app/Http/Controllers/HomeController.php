@@ -16,12 +16,12 @@ class HomeController extends Controller
         ];
 
         $dataJenisKanopi = [
-            ['id' => 1, 'image' => 'https://placehold.co/525x525', 'nama' => 'Kanopi <br class="d-sm-none"/> Alderon Single',],
-            ['id' => 2, 'image' => 'https://placehold.co/525x525', 'nama' => 'Kanopi <br class="d-sm-none"/> Alderon Double',],
+            ['id' => 1, 'image' => 'https://placehold.co/525x525', 'nama' => 'Kanopi Alderon <br class="d-sm-none"/> Single',],
+            ['id' => 2, 'image' => 'https://placehold.co/525x525', 'nama' => 'Kanopi Alderon <br class="d-sm-none"/> Double',],
             ['id' => 3, 'image' => 'https://placehold.co/525x525', 'nama' => 'Kanopi <br class="d-sm-none"/> Solar Flat'],
             ['id' => 4, 'image' => 'https://placehold.co/525x525', 'nama' => 'Kanopi <br class="d-sm-none"/> Baja Ringan',],
             ['id' => 5, 'image' => 'https://placehold.co/525x525', 'nama' => 'Kanopi <br class="d-sm-none"/> Polycarbonate',],
-            ['id' => 6, 'image' => 'https://placehold.co/525x525', 'nama' => 'Kanopi <br class="d-sm-none"/> Solar Flat Sliding'],
+            ['id' => 6, 'image' => 'https://placehold.co/525x525', 'nama' => 'Kanopi Solar <br class="d-sm-none"/> Flat Sliding'],
         ];
 
         $dataPortofolio = [
