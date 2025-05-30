@@ -65,30 +65,36 @@ jQuery(function ($) {
         const canopyType = $("#canopyType").val();
         const canopySize = $("#canopySize").val().trim();
 
-        if (name.length < 3) {
-            showError("UserName", "Nama harus minimal 3 karakter.");
+        if (!name) {
+            showError("UserName", "Nama harus diisi");
+            return;
+        } else if (name.length < 3) {
+            showError("UserName", "Nama harus minimal 3 karakter");
             return;
         }
 
-        if (!validatePhone(phone)) {
-            showError("UserPhone", "Nomor WhatsApp harus minimal 9-15 digit.");
+        if (!phone) {
+            showError("UserPhone", "Nomor WhatsApp harus diisi");
+            return;
+        } else if (!validatePhone(phone)) {
+            showError("UserPhone", "Nomor WhatsApp harus minimal 9-15 digit");
             return;
         }
 
         if (address.length === 0) {
-            showError("UserAddress", "Alamat pemasangan wajib diisi.");
+            showError("UserAddress", "Alamat pemasangan wajib diisi");
             return;
         }
 
         if (!canopyType) {
-            showError("CanopyType", "Silakan pilih jenis kanopi.");
+            showError("CanopyType", "Silakan pilih jenis kanopi");
             return;
         }
 
         if (canopySize.length > 0 && !/^\d+(\s*x\s*\d+)?$/.test(canopySize)) {
             showError(
                 "CanopySize",
-                "Ukuran kanopi harus dalam format seperti '4 x 3'."
+                "Ukuran kanopi harus dalam format seperti '4 x 3'"
             );
             return;
         }
