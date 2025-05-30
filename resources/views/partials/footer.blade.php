@@ -31,7 +31,7 @@
               </div>
               <div class="fl-module fl-module-icon fl-node-18edohsqcpyg" data-node="18edohsqcpyg">
                 <div class="fl-module-content fl-node-content">
-                  <a href="javascript:void(0)" class="openWhatsappModal">
+                  <a href="#" rel="noopener" class="openWhatsappModal">
                     <div class="fl-icon-wrap">
                       <span class="fl-icon">
                         <i class="fas fa-phone" aria-hidden="true"></i>
