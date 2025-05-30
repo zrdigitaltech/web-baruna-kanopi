@@ -18,7 +18,7 @@ class HomeController extends Controller
         $dataJenisKanopi = [
             ['id' => 1, 'image' => 'https://galaxykanopi.com/wp-content/uploads/bb-plugin/cache/galaxykanopi.com-10-circle-308d2187e84c5f24e319bdb973852b56-.jpeg', 'nama' => 'Kanopi Alderon Single',],
             ['id' => 2, 'image' => 'https://galaxykanopi.com/wp-content/uploads/bb-plugin/cache/galaxykanopi.com-2-circle-051ed9df7a6ff6c6771bd86847532b6c-.jpeg', 'nama' => 'Kanopi Alderon Double',],
-            ['id' => 3, 'image' => 'https://galaxykanopi.com/wp-content/uploads/bb-plugin/cache/galaxykanopi.com-3-circle-50c66b947145e47f1049797887b4cacc-.jpeg', 'nama' => 'Kanopi Solar Flat'],
+            ['id' => 3, 'image' => 'https://galaxykanopi.com/wp-content/uploads/bb-plugin/cache/galaxykanopi.com-3-circle-50c66b947145e47f1049797887b4cacc-.jpeg', 'nama' => 'Kanopi Solar <br class="d-sm-none"/>Flat'],
             ['id' => 4, 'image' => 'https://galaxykanopi.com/wp-content/uploads/bb-plugin/cache/galaxykanopi11-circle-dacbb86ee6e08bf826a9cee86ece330f-.jpg', 'nama' => 'Kanopi Baja Ringan',],
             ['id' => 5, 'image' => 'https://galaxykanopi.com/wp-content/uploads/bb-plugin/cache/galaxykanopi.com-11-circle-f2b4a4c7454caefb4f165e4fc1fb6f64-.jpeg', 'nama' => 'Kanopi Polycarbonate',],
             ['id' => 6, 'image' => 'https://galaxykanopi.com/wp-content/uploads/bb-plugin/cache/galaxykanopi.com-1-circle-1d364bb807880a3ccec7399dabc05a44-.jpeg', 'nama' => 'Kanopi Solar Flat Sliding'],

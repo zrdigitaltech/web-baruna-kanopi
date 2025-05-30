@@ -3,8 +3,8 @@
     <div class="fl-row-content-wrap">
       <div class="fl-row-content fl-row-fixed-width fl-node-content">
 
-        <div class="fl-col-group fl-node-c96bphw47rqm" data-node="c96bphw47rqm">
-          <div class="fl-col fl-node-ym5zsaw6kxtd fl-col-bg-color fl-col-small" data-node="ym5zsaw6kxtd">
+        <div class="fl-col-group fl-node-c96bphw47rqm row">
+          <div class="col-sm-4">
             <div class="fl-col-content fl-node-content">
               <div class="fl-module fl-module-heading fl-node-8cdsfx2wuag9" data-node="8cdsfx2wuag9">
                 <div class="fl-module-content fl-node-content">
@@ -46,7 +46,7 @@
               </div>
             </div>
           </div>
-          <div class="fl-col fl-node-1n8i3x69u5wr fl-col-bg-color fl-col-small fl-col-has-cols" data-node="1n8i3x69u5wr">
+          <div class="col-sm-4">
             <div class="fl-col-content fl-node-content">
               <div class="fl-module fl-module-heading fl-node-3dylvt0msrni" data-node="3dylvt0msrni">
                 <div class="fl-module-content fl-node-content">
@@ -56,12 +56,12 @@
                 </div>
               </div>
 
-              <div class="fl-col-group fl-node-j5fmari6b9wx fl-col-group-nested" data-node="j5fmari6b9wx">
-                <div class="fl-col fl-node-re1kb7cglui8 fl-col-bg-color fl-col-small" data-node="re1kb7cglui8">
+              <div class="fl-col-group fl-node-j5fmari6b9wx fl-col-group-nested d-flex">
+                <div class="fl-col fl-node-re1kb7cglui8 fl-col-bg-color fl-col-small">
                   <div class="fl-col-content fl-node-content">
                     <div class="fl-module fl-module-rich-text fl-node-16vryos5du0w" data-node="16vryos5du0w">
                       <div class="fl-module-content fl-node-content">
-                        <div class="fl-rich-text">
+                        <div class="fl-rich-text row">
                           <p><a href="#profil">Profil</a></p>
                           <p><a href="#keunggulan">Keunggulan</a></p>
                           <p><a href="#alasan">Alasan Memilih</a></p>
@@ -71,11 +71,11 @@
                     </div>
                   </div>
                 </div>
-                <div class="fl-col fl-node-qi7uyxf61sht fl-col-bg-color fl-col-small" data-node="qi7uyxf61sht">
+                <div class="fl-col fl-node-qi7uyxf61sht fl-col-bg-color fl-col-small">
                   <div class="fl-col-content fl-node-content">
-                    <div class="fl-module fl-module-rich-text fl-node-xn0ierudcpal" data-node="xn0ierudcpal">
+                    <div class="fl-module fl-module-rich-text fl-node-xn0ierudcpal">
                       <div class="fl-module-content fl-node-content">
-                        <div class="fl-rich-text">
+                        <div class="fl-rich-text row">
                           <p><a href="#portofolio">Portofolio</a></p>
                           <p><a href="#testimoni">Testimoni</a></p>
                           <p><a href="#goolge-maps">Kontak</a></p>
@@ -87,7 +87,7 @@
               </div>
             </div>
           </div>
-          <div class="fl-col fl-node-8gb2qw7uycz4 fl-col-bg-color fl-col-small" data-node="8gb2qw7uycz4">
+          <div class="col-sm-4">
             <div class="fl-col-content fl-node-content">
               <div class="fl-module fl-module-heading fl-node-kiez61goqbju" data-node="kiez61goqbju">
                 <div class="fl-module-content fl-node-content">

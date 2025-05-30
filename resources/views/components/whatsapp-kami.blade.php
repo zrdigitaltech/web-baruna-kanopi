@@ -1,6 +1,6 @@
 <!-- Modal WhatsApp -->
 <div class="modal fade" id="whatsappModal" tabindex="-1" role="dialog" aria-labelledby="whatsappModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
+  <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header d-flex justify-content-between align-items-center">
         <h4 class="modal-title mb-0" id="whatsappModalLabel">Form Pemesanan</h4>

@@ -1,6 +1,6 @@
 <!-- Modal Terima Kasih -->
 <div class="modal fade" id="thankYouModal" tabindex="-1" role="dialog" aria-labelledby="thankYouModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+  <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content text-center p-3">
       <div class="modal-body">
         <h5 id="thankYouModalLabel" class="mb-3">Terima Kasih!</h5>

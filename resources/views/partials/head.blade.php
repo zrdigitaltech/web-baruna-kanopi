@@ -459,7 +459,6 @@
 <link rel="stylesheet" href="{{ asset('assets/css/all.min.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/jquery.magnificpopup.min.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/11-layout.css') }}">
-{{-- <link rel="stylesheet" href="{{ asset('assets/css/velocity-addons-public.css') }}"> --}}
 <link rel="stylesheet" href="{{ asset('assets/css/cea0e7464294f2aa4beeabfdf44c52f8-layout-bundle.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
@@ -538,7 +537,6 @@
 
 <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
 <script src="{{ asset('assets/js/jquery-migrate.min.js') }}"></script>
-{{-- <script src="{{ asset('assets/js/velocity-addons-public.js') }}"></script> --}}
 <!-- Google Tag Manager -->
 <!-- End Google Tag Manager -->
 {{-- <link rel="icon" href="https://galaxykanopi.com/wp-content/uploads/2024/09/favicon.png" sizes="32x32">  --}}

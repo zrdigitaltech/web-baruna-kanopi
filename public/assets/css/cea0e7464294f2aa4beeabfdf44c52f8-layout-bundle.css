@@ -756,9 +756,9 @@ body:not(.single-fl-theme-layout) .fl-builder-content[data-overlay="1"]:not(.fl-
   margin-left:3px
 }
 @media (max-width:768px){
-  .fl-node-xn0ierudcpal.fl-module>.fl-module-content{
+  /* .fl-node-xn0ierudcpal.fl-module>.fl-module-content{
       margin-top:0
-  }
+  } */
 }
 .fl-node-738vj2gcbdir .fl-icon i,.fl-node-738vj2gcbdir .fl-icon i:before{
   color:#9b9b9b
