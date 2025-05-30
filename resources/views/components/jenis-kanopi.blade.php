@@ -71,6 +71,7 @@
                       </div>
                     </div>
                     <h3 class="fl-callout-title"><span class="fl-callout-title-text">{!! $item['nama'] !!}</span></h3>
+                    <p>{!! $item['deskripsi'] !!}</p>
                     <div class="whatsapp-floating floating-button right scroll-active scroll-right" style="position: static;box-shadow: none !important;">
                       {{-- href="https://wa.me/6281234567890?text=Halo%20Baruna%20Kanopi,%20saya%20menghubungi%20Anda%20dari%20website%20mengenai%20{{ urlencode($item['nama']) }}.%20Bisakah%20saya%20mendapatkan%20info%20lebih%20lanjut?" --}}
                       <a href="#" rel="noopener" data-id="{{ $item['id'] }}" data-nama="{{ $item['nama'] }}" class="text-white openWhatsappModal">
