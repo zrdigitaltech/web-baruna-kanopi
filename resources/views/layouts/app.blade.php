@@ -12,7 +12,7 @@
     @include('partials.header')
     <div class="justg-top-content"></div>
 
-    <div id="wrapper-content">
+    <div id="wrapper-content" style="margin-top: 65px">
       <div class="fl-builder-content fl-builder-content-11 fl-builder-content-primary fl-builder-global-templates-locked">
         @yield('content')
       </div>

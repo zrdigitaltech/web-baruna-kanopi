@@ -1,5 +1,5 @@
 <header class="fl-builder-content fl-builder-content-41 fl-builder-global-templates-locked" data-post-id="41" data-type="header" data-sticky="0" data-sticky-on="" data-sticky-breakpoint="medium" data-shrink="0" data-overlay="0" data-overlay-bg="transparent" data-shrink-image-height="50px" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader"
-  style="position: sticky; top: 0; z-index: 999; width: 100%; background: white;">
+  style="position: fixed; top: 0; z-index: 999; width: 100%; background: white;">
   <div class="fl-row fl-row-full-width fl-row-bg-color fl-node-1ictj3kuxp92 fl-row-default-height fl-row-align-center" data-node="1ictj3kuxp92">
     <div class="fl-row-content-wrap">
       <div class="fl-row-content fl-row-fixed-width fl-node-content" style="position: relative;">
