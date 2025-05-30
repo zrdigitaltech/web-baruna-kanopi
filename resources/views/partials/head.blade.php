@@ -21,6 +21,7 @@
 <meta property="og:image" content="https://placehold.co/300x56/FFFFFF/111/png?text=BarunaKanopi">
 <meta property="og:title" content="Baruna Kanopi | Jasa Pemasangan Kanopi Profesional & Terpercaya">
 <meta property="og:description" content="Baruna Kanopi adalah penyedia jasa pemasangan kanopi terpercaya di Indonesia. Kami menawarkan solusi kanopi berkualitas untuk rumah, toko, dan bangunan komersial dengan harga kompetitif.">
+<link rel="manifest" href="{{ asset('manifest.json') }}">
 <!-- / SEO by ZRDigitalTech -->
 
 <link rel="stylesheet" href="{{ asset('assets/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.woff2') }}">
