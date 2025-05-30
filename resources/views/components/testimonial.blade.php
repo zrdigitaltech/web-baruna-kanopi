@@ -23,7 +23,7 @@
                         <div class="testimoni-description mb-3">Baruna Kanopi memberikan layanan pemasangan yang sangat rapi dan profesional. Kanopi kami kini tampak lebih elegan dan kuat.</div>
                         <div class="row align-items-center">
                           <div class="col-4 col-sm-2">
-                            <div data-bg="https://galaxykanopi.com/wp-content/uploads/2024/09/avatar.png" class="foto-testimoni rocket-lazyload" style=""></div>
+                            <div data-bg="/assets/images/avatar.png" class="foto-testimoni rocket-lazyload" style=""></div>
                           </div>
                           <div class="col-8 col-sm-10 pl-2">
                             <div class="text-dark fw-bold">Budi Santoso</div><small class="text-secondary">Pemilik Rumah</small>
@@ -36,7 +36,7 @@
                         <div class="testimoni-description mb-3">Proses pemasangan cepat dan hasilnya sesuai janji. Tim Baruna Kanopi sangat teliti dan bertanggung jawab.</div>
                         <div class="row align-items-center">
                           <div class="col-4 col-sm-2">
-                            <div data-bg="https://galaxykanopi.com/wp-content/uploads/2024/09/avatar.png" class="foto-testimoni rocket-lazyload" style=""></div>
+                            <div data-bg="/assets/images/avatar.png" class="foto-testimoni rocket-lazyload" style=""></div>
                           </div>
                           <div class="col-8 col-sm-10 pl-2">
                             <div class="text-dark fw-bold">Sari Wulandari</div><small class="text-secondary">Pengusaha Lokal</small>
@@ -49,7 +49,7 @@
                         <div class="testimoni-description mb-3">Baruna Kanopi memberikan layanan pemasangan yang sangat rapi dan profesional. Kanopi kami kini tampak lebih elegan dan kuat.</div>
                         <div class="row align-items-center">
                           <div class="col-4 col-sm-2">
-                            <div data-bg="https://galaxykanopi.com/wp-content/uploads/2024/09/avatar.png" class="foto-testimoni rocket-lazyload" style=""></div>
+                            <div data-bg="/assets/images/avatar.png" class="foto-testimoni rocket-lazyload" style=""></div>
                           </div>
                           <div class="col-8 col-sm-10 pl-2">
                             <div class="text-dark fw-bold">Budi Santoso</div><small class="text-secondary">Pemilik Rumah</small>
@@ -62,7 +62,7 @@
                         <div class="testimoni-description mb-3">Kanopi baru kami terlihat modern dan tahan lama, berkat material berkualitas dari Baruna Kanopi. Sangat direkomendasikan!</div>
                         <div class="row align-items-center">
                           <div class="col-4 col-sm-2">
-                            <div data-bg="https://galaxykanopi.com/wp-content/uploads/2024/09/avatar.png" class="foto-testimoni rocket-lazyload" style=""></div>
+                            <div data-bg="/assets/images/avatar.png" class="foto-testimoni rocket-lazyload" style=""></div>
                           </div>
                           <div class="col-8 col-sm-10 pl-2">
                             <div class="text-dark fw-bold">Andi Prasetyo</div><small class="text-secondary">Kontraktor Bangunan</small>

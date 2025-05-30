@@ -137,20 +137,6 @@
     //# sourceMappingURL=lazyload-css.min.js.map
   </script> --}}
   <script src="{{ asset('assets/js/custom.js') }}"></script>
-  {{-- <script id="justg-scripts-js-extra">
-    var opt = {
-      "ajaxUrl": "https:\/\/galaxykanopi.com\/wp-admin\/admin-ajax.php",
-      "ajaxPost": "https:\/\/galaxykanopi.com\/wp-admin\/admin-post.php",
-      "restUrl": "https:\/\/galaxykanopi.com\/wp-json\/",
-      "restUrlProduct": "https:\/\/galaxykanopi.com\/wp-json\/wp\/v2\/product",
-      "shopName": "galaxy-steel",
-      "inWishlist": "Already in wishlist",
-      "removeWishlist": "Remove from wishlist",
-      "buttonText": "Details",
-      "error": "Something went wrong, could not add to wishlist",
-      "noWishlist": "No wishlist found"
-    };
-  </script> --}}
   {{-- <script src="{{ asset('assets/js/theme.min.js') }}"></script> --}}
   <script>
     window.lazyLoadOptions = [{

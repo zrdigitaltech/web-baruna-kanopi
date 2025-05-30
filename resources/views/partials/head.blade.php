@@ -537,12 +537,15 @@
 
 <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
 <script src="{{ asset('assets/js/jquery-migrate.min.js') }}"></script>
+
 <!-- Google Tag Manager -->
 <!-- End Google Tag Manager -->
-{{-- <link rel="icon" href="https://galaxykanopi.com/wp-content/uploads/2024/09/favicon.png" sizes="32x32">  --}}
-{{-- <link rel="icon" href="https://galaxykanopi.com/wp-content/uploads/2024/09/favicon.png" sizes="192x192"> --}}
-{{-- <link rel="apple-touch-icon" href="https://galaxykanopi.com/wp-content/uploads/2024/09/favicon.png"> --}}
-{{-- <meta name="msapplication-TileImage" content="https://galaxykanopi.com/wp-content/uploads/2024/09/favicon.png">  --}}
+
+<link rel="icon" href="https://placehold.co/32x32/FFFFFF/111/png?text=Baruna+Kanopi" sizes="32x32">
+<link rel="icon" href="https://placehold.co/192x192/FFFFFF/111/png?text=Baruna+Kanopi" sizes="192x192">
+<link rel="apple-touch-icon" href="https://placehold.co/192x192/FFFFFF/111/png?text=Baruna+Kanopi">
+<meta name="msapplication-TileImage" content="https://placehold.co/150x150/FFFFFF/111/png?text=Baruna+Kanopi">
+
 <style id="kirki-inline-styles">
   body,
   .is-root-container {
@@ -640,93 +643,7 @@
 </style>
 
 {{-- <style id="wpr-lazyload-bg-exclusion"></style> --}}
-{{-- <noscript>
-    <style id="wpr-lazyload-bg-nostyle">
-      :root {
-        --wpr-bg-1df2eb9a-36fb-4755-924a-c67e8bba5f86: url('../../../../../../../../../../../plugins/bb-plugin/img/bxslider/bx_loader.gif');
-      }
 
-      :root {
-        --wpr-bg-29c99643-87e0-4db0-a27b-b7baa6874f47: url('../../../../../../../../../../../plugins/bb-plugin/img/bxslider/controls.png');
-      }
-
-      :root {
-        --wpr-bg-a2f0d3cf-483f-47a2-8cb3-769c95a948d2: url('../../../../../../../../../../../plugins/bb-plugin/img/bxslider/controls.png');
-      }
-
-      :root {
-        --wpr-bg-b60f0a85-eec8-4e9d-b1f8-5fa23669e528: url('../../../../../../../../../../../plugins/bb-plugin/img/bxslider/controls.png');
-      }
-
-      :root {
-        --wpr-bg-60222a67-35c4-4f77-b641-6d53849a71bb: url('../../../../../../../../../../../plugins/bb-plugin/img/bxslider/controls.png');
-      }
-
-      :root {
-        --wpr-bg-09cff4ec-c4b5-49da-a1a7-1b18dac96ecd: url('../../../../../../../../../../../uploads/bb-plugin/cache/ajax-loader.gif');
-      }
-
-      :root {
-        --wpr-bg-cf1ea7b0-3123-481d-9d13-3f6144612cdb: url('/assets/images/IMG-20240918-WA0036.jpg');
-      }
-
-      :root {
-        --wpr-bg-dc678e6d-3d7f-462b-aebf-65b2b9f09117: url('/assets/images/galaxykanopi11.jpg');
-      }
-
-      :root {
-        --wpr-bg-e59b51ac-67a1-4c9e-96cd-6afd1bbc72e3: url('/assets/images/bg-page-header.jpg');
-      }
-
-      :root {
-        --wpr-bg-47ff2351-b735-4715-97d5-c557bead35e7: url('/assets/images/youtube.png');
-      }
-    </style>
-  </noscript> --}}
-{{-- <script type="application/javascript">
-  const rocket_pairs = [{
-    "selector": ".bx-wrapper .bx-loading",
-    "style": ":root{--wpr-bg-1df2eb9a-36fb-4755-924a-c67e8bba5f86: url('..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/plugins\/bb-plugin\/img\/bxslider\/bx_loader.gif');}",
-    "hash": "1df2eb9a-36fb-4755-924a-c67e8bba5f86"
-  }, {
-    "selector": ".bx-wrapper .bx-prev",
-    "style": ":root{--wpr-bg-29c99643-87e0-4db0-a27b-b7baa6874f47: url('..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/plugins\/bb-plugin\/img\/bxslider\/controls.png');}",
-    "hash": "29c99643-87e0-4db0-a27b-b7baa6874f47"
-  }, {
-    "selector": ".bx-wrapper .bx-next",
-    "style": ":root{--wpr-bg-a2f0d3cf-483f-47a2-8cb3-769c95a948d2: url('..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/plugins\/bb-plugin\/img\/bxslider\/controls.png');}",
-    "hash": "a2f0d3cf-483f-47a2-8cb3-769c95a948d2"
-  }, {
-    "selector": ".bx-wrapper .bx-controls-auto .bx-start",
-    "style": ":root{--wpr-bg-b60f0a85-eec8-4e9d-b1f8-5fa23669e528: url('..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/plugins\/bb-plugin\/img\/bxslider\/controls.png');}",
-    "hash": "b60f0a85-eec8-4e9d-b1f8-5fa23669e528"
-  }, {
-    "selector": ".bx-wrapper .bx-controls-auto .bx-stop",
-    "style": ":root{--wpr-bg-60222a67-35c4-4f77-b641-6d53849a71bb: url('..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/plugins\/bb-plugin\/img\/bxslider\/controls.png');}",
-    "hash": "60222a67-35c4-4f77-b641-6d53849a71bb"
-  }, {
-    "selector": ".slick-loading .slick-list",
-    "style": ":root{--wpr-bg-09cff4ec-c4b5-49da-a1a7-1b18dac96ecd: url('..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/uploads\/bb-plugin\/cache\/ajax-loader.gif');}",
-    "hash": "09cff4ec-c4b5-49da-a1a7-1b18dac96ecd"
-  }, {
-    "selector": ".fl-node-lh7todf5snuk .fl-slide-0 .fl-slide-bg-photo",
-    "style": ":root{--wpr-bg-cf1ea7b0-3123-481d-9d13-3f6144612cdb: url('https:\/\/galaxykanopi.com\/wp-content\/uploads\/2024\/09\/IMG-20240918-WA0036.jpg');}",
-    "hash": "cf1ea7b0-3123-481d-9d13-3f6144612cdb"
-  }, {
-    "selector": ".fl-node-lh7todf5snuk .fl-slide-1 .fl-slide-bg-photo",
-    "style": ":root{--wpr-bg-dc678e6d-3d7f-462b-aebf-65b2b9f09117: url('https:\/\/galaxykanopi.com\/wp-content\/uploads\/2024\/09\/galaxykanopi11.jpg');}",
-    "hash": "dc678e6d-3d7f-462b-aebf-65b2b9f09117"
-  }, {
-    "selector": ".fl-node-un4odxh02p9a>.fl-row-content-wrap",
-    "style": ":root{--wpr-bg-e59b51ac-67a1-4c9e-96cd-6afd1bbc72e3: url('https:\/\/galaxykanopi.com\/wp-content\/uploads\/2024\/09\/bg-page-header.jpg');}",
-    "hash": "e59b51ac-67a1-4c9e-96cd-6afd1bbc72e3"
-  }, {
-    "selector": ".rll-youtube-player .play",
-    "style": ":root{--wpr-bg-47ff2351-b735-4715-97d5-c557bead35e7: url('https:\/\/galaxykanopi.com\/wp-content\/plugins\/clsop\/assets\/img\/youtube.png');}",
-    "hash": "47ff2351-b735-4715-97d5-c557bead35e7"
-  }];
-  const rocket_excluded_pairs = [];
-</script> --}}
 {{-- <style id="fit-vids-style">
   .fluid-width-video-wrapper {
     width: 100%;

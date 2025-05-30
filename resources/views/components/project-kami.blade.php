@@ -70,7 +70,7 @@
             {{-- <div class="fl-module fl-module-button fl-node-10v9bmh7oijq" data-node="10v9bmh7oijq">
                       <div class="fl-module-content fl-node-content">
                         <div class="fl-button-wrap fl-button-width-auto fl-button-center">
-                          <a href="https://galaxykanopi.com/project/" target="_self" class="fl-button">
+                          <a href="/project" target="_self" class="fl-button">
                             <span class="fl-button-text">Lihat Semua</span>
                           </a>
                         </div>
