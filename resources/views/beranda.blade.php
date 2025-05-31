@@ -13,6 +13,6 @@
 <x-testimonial :data="$dataTestimoni" />
 <x-google-maps />
 
-<x-whatsapp-kami />
+<x-whatsapp-kami :data="$dataJenisKanopi" />
 <x-terima-kasih />
 @endsection

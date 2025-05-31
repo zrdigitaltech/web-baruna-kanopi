@@ -2,6 +2,7 @@
 <title>Jasa Pemasangan Kanopi | Baruna Kanopi</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="csrf-token" content="{{ csrf_token() }}">
 <meta name="description" content="Penyedia jasa pemasangan kanopi terpercaya untuk rumah, toko, dan bangunan komersial di Indonesia.">
 <meta name="keywords" content="Baruna Kanopi, jasa pemasangan kanopi, ahli kanopi Indonesia, kanopi berkualitas, spesialis kanopi terpercaya, pemasangan kanopi profesional, layanan kanopi Indonesia, tukang kanopi berpengalaman, kanopi rumah dan bangunan">
 <meta name="author" content="ZRDigitalTech">

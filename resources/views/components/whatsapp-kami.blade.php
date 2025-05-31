@@ -10,6 +10,7 @@
       </div>
       <div class="modal-body">
         <form id="orderForm">
+          @csrf
           <div class="form-group mb-3">
             <label for="userName">Nama Lengkap</label>
             <input type="text" class="form-control" id="userName" placeholder="Masukkan nama Anda" maxlength="50">
@@ -26,27 +27,26 @@
           </div>
 
           <div class="form-group mb-3">
-            <label for="userAddress">Alamat Lokasi Pemasangan</label>
-            <textarea class="form-control" id="userAddress" rows="2" placeholder="Masukkan alamat lengkap lokasi pemasangan"></textarea>
-            <small class="text-danger d-none" id="errorUserAddress"></small>
+            <label for="useralamat">Alamat Lokasi Pemasangan</label>
+            <textarea class="form-control" id="useralamat" rows="2" placeholder="Masukkan alamat lengkap lokasi pemasangan"></textarea>
+            <small class="text-danger d-none" id="errorUseralamat"></small>
           </div>
 
           <div class="form-group mb-3">
-            <label for="canopyType">Pilih Jenis Kanopi</label>
-            <select class="form-control" id="canopyType">
+            <label for="jenisKanopi">Pilih Jenis Kanopi</label>
+            <select class="form-control" id="jenisKanopi">
               <option value="">-- Pilih jenis kanopi --</option>
-              <option value="kanopi baja ringan">Kanopi Baja Ringan</option>
-              <option value="kanopi kaca">Kanopi Kaca</option>
-              <option value="kanopi polycarbonate">Kanopi Polycarbonate</option>
-              <option value="kanopi kain">Kanopi Kain</option>
+              @foreach($data as $item)
+              <option value="{!! $item['id'] !!}">{!! $item['nama'] !!}</option>
+              @endforeach
             </select>
-            <small class="text-danger d-none" id="errorCanopyType"></small>
+            <small class="text-danger d-none" id="errorJenisKanopi"></small>
           </div>
 
           <div class="form-group mb-3">
-            <label for="canopySize">Ukuran Kanopi (P x L dalam meter)</label>
-            <input type="text" class="form-control" id="canopySize" placeholder="Contoh: 4 x 3">
-            <small class="text-danger d-none" id="errorCanopySize"></small>
+            <label for="ukuranKanopi">Ukuran Kanopi (P x L dalam meter)</label>
+            <input type="text" class="form-control" id="ukuranKanopi" placeholder="Contoh: 4 x 3">
+            <small class="text-danger d-none" id="errorUkuranKanopi"></small>
           </div>
 
           <button type="submit" class="btn btn-success btn-block w-100">Hubungi via WhatsApp</button>

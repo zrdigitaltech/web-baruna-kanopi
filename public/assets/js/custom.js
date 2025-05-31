@@ -59,16 +59,16 @@ jQuery(function ($) {
         e.preventDefault();
         clearErrors();
 
-        const name = $("#userName").val().trim();
+        const nama = $("#userName").val().trim();
         const phone = $("#userPhone").val().trim();
-        const address = $("#userAddress").val().trim();
-        const canopyType = $("#canopyType").val();
-        const canopySize = $("#canopySize").val().trim();
+        const alamat = $("#useralamat").val().trim();
+        const jenisKanopi = $("#jenisKanopi").val();
+        const ukuranKanopi = $("#ukuranKanopi").val().trim();
 
-        if (!name) {
+        if (!nama) {
             showError("UserName", "Nama harus diisi");
             return;
-        } else if (name.length < 3) {
+        } else if (nama.length < 3) {
             showError("UserName", "Nama harus minimal 3 karakter");
             return;
         }
@@ -81,19 +81,22 @@ jQuery(function ($) {
             return;
         }
 
-        if (address.length === 0) {
-            showError("UserAddress", "Alamat pemasangan wajib diisi");
+        if (alamat.length === 0) {
+            showError("Useralamat", "Alamat pemasangan wajib diisi");
             return;
         }
 
-        if (!canopyType) {
-            showError("CanopyType", "Silakan pilih jenis kanopi");
+        if (!jenisKanopi) {
+            showError("JenisKanopi", "Silakan pilih jenis kanopi");
             return;
         }
 
-        if (canopySize.length > 0 && !/^\d+(\s*x\s*\d+)?$/.test(canopySize)) {
+        if (
+            ukuranKanopi.length > 0 &&
+            !/^\d+(\s*x\s*\d+)?$/.test(ukuranKanopi)
+        ) {
             showError(
-                "CanopySize",
+                "UkuranKanopi",
                 "Ukuran kanopi harus dalam format seperti '4 x 3'"
             );
             return;
@@ -101,11 +104,71 @@ jQuery(function ($) {
 
         // Semua validasi lolos, lanjut proses submit
         hideModal("#whatsappModal");
-        this.reset();
+        // this.reset();
+        const jenisKanopiMap = {
+            1: "Kanopi Alderon Single",
+            2: "Kanopi Alderon Double",
+            3: "Kanopi Solar Flat",
+            4: "Kanopi Baja Ringan",
+            5: "Kanopi Polycarbonate",
+            6: "Kanopi Solar Flat Sliding",
+        };
 
-        setTimeout(function () {
-            showModal("#thankYouModal");
-        }, 300);
+        var jenisKanopiText = jenisKanopiMap[jenisKanopi] || jenisKanopi;
+        $.ajax({
+            url: "/pelanggan/store", // Ganti sesuai route di Laravel kamu
+            method: "POST",
+            data: {
+                _token: $('meta[name="csrf-token"]').attr("content"),
+                nama: nama,
+                phone: phone,
+                alamat: alamat,
+                jenis_kanopi: jenisKanopiText,
+                ukuran_kanopi: ukuranKanopi,
+            },
+            success: function (response) {
+                $("#orderForm")[0].reset(); // Reset form
+
+                // Nomor WhatsApp tujuan (ganti dengan nomor kamu)
+                var waNumber = "6281228883616";
+
+                var message =
+                    "Halo " +
+                    window.location.hostname +
+                    ", saya ingin memesan kanopi dengan detail berikut:\n\n" +
+                    "- Nama: " +
+                    nama +
+                    "\n" +
+                    "- No. WA: " +
+                    phone +
+                    "\n" +
+                    "- Alamat: " +
+                    alamat +
+                    "\n" +
+                    "- Jenis Kanopi: " +
+                    jenisKanopiText +
+                    "\n" +
+                    "- Ukuran Kanopi: " +
+                    (ukuranKanopi || "-") +
+                    "\n\n" +
+                    "Mohon konfirmasinya. Terima kasih!";
+
+                var encodedMessage = encodeURIComponent(message);
+
+                window.open(
+                    "https://wa.me/" + waNumber + "?text=" + encodedMessage,
+                    "_blank"
+                );
+
+                setTimeout(function () {
+                    showModal("#thankYouModal");
+                }, 300);
+            },
+            error: function (xhr) {
+                alert("Terjadi kesalahan saat mengirim data.");
+                console.error(xhr.responseText);
+            },
+        });
     });
 
     $(".openWhatsappModal").on("click", function (e) {
