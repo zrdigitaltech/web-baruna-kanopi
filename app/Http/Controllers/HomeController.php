@@ -33,6 +33,33 @@ class HomeController extends Controller
             ['id' => 6, 'image' => 'https://placehold.co/600x420'],
         ];
 
-        return view('beranda', compact('dataSlider', 'dataJenisKanopi', 'dataPortofolio'));
+        $dataTestimoni = [
+            [
+                'description' => 'Proses pemasangan cepat dan hasilnya sesuai janji. Tim Baruna Kanopi sangat teliti dan bertanggung jawab.',
+                'name' => 'Sari Wulandari',
+                'role' => 'Pengusaha Lokal',
+                'avatar' => '/assets/images/avatar.png',
+            ],
+            [
+                'description' => 'Baruna Kanopi memberikan layanan pemasangan yang sangat rapi dan profesional. Kanopi kami kini tampak lebih elegan dan kuat.',
+                'name' => 'Budi Santoso',
+                'role' => 'Pemilik Rumah',
+                'avatar' => '/assets/images/avatar.png',
+            ],
+            [
+                'description' => 'Kanopi baru kami terlihat modern dan tahan lama, berkat material berkualitas dari Baruna Kanopi. Sangat direkomendasikan!',
+                'name' => 'Andi Prasetyo',
+                'role' => 'Kontraktor Bangunan',
+                'avatar' => '/assets/images/avatar.png',
+            ],
+            [
+                'description' => 'Pelayanan ramah dan hasil pemasangan sangat memuaskan. Terima kasih Baruna Kanopi atas profesionalismenya!',
+                'name' => 'Dewi Kartika',
+                'role' => 'Ibu Rumah Tangga',
+                'avatar' => '/assets/images/avatar.png',
+            ]
+        ];
+
+        return view('beranda', compact('dataSlider', 'dataJenisKanopi', 'dataPortofolio', 'dataTestimoni'));
     }
 }

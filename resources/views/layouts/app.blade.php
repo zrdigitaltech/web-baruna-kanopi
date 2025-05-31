@@ -233,9 +233,9 @@
   </script> --}}
 
   <!-- scripts -->
-  <!-- <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> -->
+  {{-- <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> --}}
 
-  <script>
+  {{-- <script>
     if ("serviceWorker" in navigator) {
       navigator.serviceWorker
         .register("/service-worker.js")
@@ -246,7 +246,7 @@
           console.error("Service Worker gagal:", err);
         });
     }
-  </script>
+  </script> --}}
 
 </body>
 

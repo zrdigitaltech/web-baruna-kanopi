@@ -10,7 +10,7 @@
 <x-alasan-memilih-kami />
 <x-jenis-kanopi :data="$dataJenisKanopi" />
 <x-project-kami :data="$dataPortofolio" />
-<x-testimonial />
+<x-testimonial :data="$dataTestimoni" />
 <x-google-maps />
 
 <x-whatsapp-kami />
