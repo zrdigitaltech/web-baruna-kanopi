@@ -8,7 +8,7 @@
             <div class="fl-module fl-module-heading fl-node-8tvq4i23u07p">
               <div class="fl-module-content fl-node-content">
                 <h2 class="fl-heading">
-                  <span class="fl-heading-text">Tentang Kami</span>
+                  <span class="fl-heading-text">Tentang Baruna Kanopi</span>
                 </h2>
               </div>
             </div>

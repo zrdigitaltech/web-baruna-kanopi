@@ -30,7 +30,7 @@
             <div class="fl-module fl-module-heading fl-node-jzkq5tabxu0w" data-node="jzkq5tabxu0w">
               <div class="fl-module-content fl-node-content">
                 <h2 class="fl-heading">
-                  <span class="fl-heading-text">Portofolio Proyek Kami</span>
+                  <span class="fl-heading-text">Portofolio</span>
                 </h2>
               </div>
             </div>

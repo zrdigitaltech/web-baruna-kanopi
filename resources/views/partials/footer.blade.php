@@ -51,7 +51,7 @@
               <div class="fl-module fl-module-heading fl-node-3dylvt0msrni" data-node="3dylvt0msrni">
                 <div class="fl-module-content fl-node-content">
                   <h3 class="fl-heading">
-                    <span class="fl-heading-text">BarunaKanopi</span>
+                    <span class="fl-heading-text">Menu</span>
                   </h3>
                 </div>
               </div>
@@ -92,7 +92,7 @@
               <div class="fl-module fl-module-heading fl-node-kiez61goqbju" data-node="kiez61goqbju">
                 <div class="fl-module-content fl-node-content">
                   <h3 class="fl-heading">
-                    <span class="fl-heading-text">Tentang Kami</span>
+                    <span class="fl-heading-text">Tentang Baruna Kanopi</span>
                   </h3>
                 </div>
               </div>
