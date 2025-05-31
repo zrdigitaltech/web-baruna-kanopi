@@ -130,7 +130,7 @@ jQuery(function ($) {
                 $("#orderForm")[0].reset(); // Reset form
 
                 // Nomor WhatsApp tujuan (ganti dengan nomor kamu)
-                var waNumber = "6281228883616";
+                var waNumber = "6281564625901";
 
                 var message =
                     "Halo " +
