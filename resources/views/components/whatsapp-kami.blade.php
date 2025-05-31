@@ -49,8 +49,10 @@
             <small class="text-danger d-none" id="errorUkuranKanopi"></small>
           </div>
 
+          <div class="alert alert-danger text-center d-none" id="errorMessage" role="alert"></div>
           <button type="submit" class="btn btn-success btn-block w-100">Hubungi via WhatsApp</button>
         </form>
+
       </div>
     </div>
   </div>

@@ -70,35 +70,41 @@ jQuery(function ($) {
         e.preventDefault();
         clearErrors();
 
+        const $btn = $(this).find('button[type="submit"]');
+        const originalText = $btn.text();
+
+        // Disable tombol dan ganti text jadi loading
+        $btn.prop("disabled", true).text("Mengirim...");
+
+        // Ambil input
         const nama = $("#userName").val().trim();
         const phone = $("#userPhone").val().trim();
         const alamat = $("#useralamat").val().trim();
         const jenisKanopi = $("#jenisKanopi").val();
         const ukuranKanopi = $("#ukuranKanopi").val().trim();
 
-        if (!nama) {
-            showError("UserName", "Nama harus diisi");
-            return;
-        } else if (nama.length < 3) {
-            showError("UserName", "Nama harus minimal 3 karakter");
+        // Validasi sederhana contoh:
+        if (!nama || nama.length < 3) {
+            showError("UserName", "Nama harus diisi minimal 3 karakter");
+            $btn.prop("disabled", false).text(originalText);
             return;
         }
 
-        if (!phone) {
-            showError("UserPhone", "Nomor WhatsApp harus diisi");
-            return;
-        } else if (!validatePhone(phone)) {
-            showError("UserPhone", "Nomor WhatsApp harus minimal 9-15 digit");
+        if (!phone || !validatePhone(phone)) {
+            showError("UserPhone", "Nomor WhatsApp harus valid");
+            $btn.prop("disabled", false).text(originalText);
             return;
         }
 
         if (alamat.length === 0) {
             showError("Useralamat", "Alamat pemasangan wajib diisi");
+            $btn.prop("disabled", false).text(originalText);
             return;
         }
 
         if (!jenisKanopi) {
             showError("JenisKanopi", "Silakan pilih jenis kanopi");
+            $btn.prop("disabled", false).text(originalText);
             return;
         }
 
@@ -106,16 +112,12 @@ jQuery(function ($) {
             ukuranKanopi.length > 0 &&
             !/^\d+(\s*x\s*\d+)?$/.test(ukuranKanopi)
         ) {
-            showError(
-                "UkuranKanopi",
-                "Ukuran kanopi harus dalam format seperti '4 x 3'"
-            );
+            showError("UkuranKanopi", "Ukuran kanopi harus seperti '4 x 3'");
+            $btn.prop("disabled", false).text(originalText);
             return;
         }
 
-        // Semua validasi lolos, lanjut proses submit
-        hideModal("#whatsappModal");
-        // this.reset();
+        // Jika semua validasi lolos, ajax submit:
         const jenisKanopiMap = {
             1: "Kanopi Alderon Single",
             2: "Kanopi Alderon Double",
@@ -124,10 +126,10 @@ jQuery(function ($) {
             5: "Kanopi Polycarbonate",
             6: "Kanopi Solar Flat Sliding",
         };
-
         var jenisKanopiText = jenisKanopiMap[jenisKanopi] || jenisKanopi;
+
         $.ajax({
-            url: "/pelanggan/store", // Ganti sesuai route di Laravel kamu
+            url: "/pelanggan/store",
             method: "POST",
             data: {
                 _token: $('meta[name="csrf-token"]').attr("content"),
@@ -138,32 +140,22 @@ jQuery(function ($) {
                 ukuran_kanopi: ukuranKanopi,
             },
             success: function (response) {
-                $("#orderForm")[0].reset(); // Reset form
+                hideModal("#whatsappModal");
+                $("#orderForm")[0].reset();
 
-                // Nomor WhatsApp tujuan (ganti dengan nomor kamu)
                 var waNumber = "6281564625901";
 
-                var message =
-                    "Halo " +
-                    window.location.hostname +
-                    ", saya ingin memesan kanopi dengan detail berikut:\n\n" +
-                    "- Nama: " +
-                    nama +
-                    "\n" +
-                    "- No. WA: " +
-                    "62" +
-                    phone +
-                    "\n" +
-                    "- Alamat: " +
-                    alamat +
-                    "\n" +
-                    "- Jenis Kanopi: " +
-                    jenisKanopiText +
-                    "\n" +
-                    "- Ukuran Kanopi: " +
-                    (ukuranKanopi || "-") +
-                    "\n\n" +
-                    "Mohon konfirmasinya. Terima kasih!";
+                const message = `Halo ${
+                    window.location.hostname
+                }, saya ingin konsultasi & pesan kanopi dengan detail berikut:
+                
+    *Nama:* ${nama}
+    *Nomor WhatsApp:* +62${phone}
+    *Alamat Pemasangan:* ${alamat}
+    *Jenis Kanopi:* ${jenisKanopiText}
+    *Ukuran Kanopi:* ${ukuranKanopi || "-"}
+    
+Mohon info lebih lanjut, terima kasih!`;
 
                 var encodedMessage = encodeURIComponent(message);
 
@@ -172,13 +164,22 @@ jQuery(function ($) {
                     "_blank"
                 );
 
+                // Enable tombol dan kembalikan text
+                $btn.prop("disabled", false).text(originalText);
+
                 setTimeout(function () {
                     showModal("#thankYouModal");
                 }, 300);
             },
             error: function (xhr) {
-                alert("Terjadi kesalahan saat mengirim data.");
+                const errorMessage =
+                    "Terjadi kesalahan saat mengirim. Silakan coba lagi.";
+
+                $("#errorMessage").removeClass("d-none").text(errorMessage);
                 console.error(xhr.responseText);
+
+                // Enable tombol dan kembalikan text
+                $btn.prop("disabled", false).text(originalText);
             },
         });
     });
