@@ -1,5 +1,5 @@
 jQuery(function ($) {
-    function showModal(modalId) {
+    function showModal(modalId, options = {}) {
         $(modalId)
             .addClass("show")
             .css("display", "block")
@@ -8,6 +8,11 @@ jQuery(function ($) {
         $('<div class="modal-backdrop fade show"></div>').appendTo(
             document.body
         );
+
+        // Set value jika ada dalam options
+        if (options.jenisKanopi) {
+            $("#jenisKanopi").val(options.jenisKanopi);
+        }
     }
 
     function hideModal(modalId) {
@@ -17,6 +22,12 @@ jQuery(function ($) {
             .removeAttr("aria-modal");
         $("body").removeClass("modal-open");
         $(".modal-backdrop").remove();
+
+        // Reset form hanya jika modal adalah #whatsappModal
+        if (modalId === "#whatsappModal") {
+            clearErrors(); // Opsional, hanya kalau kamu ingin hapus error juga
+            $("#jenisKanopi").val(""); // Reset hanya select dropdown
+        }
     }
 
     function clearErrors() {
@@ -121,7 +132,7 @@ jQuery(function ($) {
             data: {
                 _token: $('meta[name="csrf-token"]').attr("content"),
                 nama: nama,
-                phone: phone,
+                phone: "62" + phone,
                 alamat: alamat,
                 jenis_kanopi: jenisKanopiText,
                 ukuran_kanopi: ukuranKanopi,
@@ -140,6 +151,7 @@ jQuery(function ($) {
                     nama +
                     "\n" +
                     "- No. WA: " +
+                    "62" +
                     phone +
                     "\n" +
                     "- Alamat: " +
@@ -174,15 +186,11 @@ jQuery(function ($) {
     $(".openWhatsappModal").on("click", function (e) {
         e.preventDefault();
 
-        var nama = $(this).data("nama");
-        var phone = "6281234567890";
+        const jenisKanopi = $(this).data("jenis-kanopi");
 
-        var message = "Halo Baruna Kanopi, saya tertarik mengenai " + nama;
-        var encodedMessage = encodeURIComponent(message);
-        var waLink = "https://wa.me/" + phone + "?text=" + encodedMessage;
-
-        $("#whatsappModal .modal-body a.btn").attr("href", waLink);
-        showModal("#whatsappModal");
+        showModal("#whatsappModal", {
+            jenisKanopi: jenisKanopi,
+        });
     });
 
     $("#whatsappModal .close").on("click", function () {
